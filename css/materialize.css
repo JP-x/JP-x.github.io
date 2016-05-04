@@ -2858,6 +2858,7 @@ video.responsive-video {
   position: relative;
   overflow: hidden;
   height: 500px;
+  
 }
 
 .parallax {
@@ -3500,6 +3501,8 @@ input[type=range] + .thumb {
   padding-top: 1rem;
   padding-bottom: 1rem;
   background-image: url("../img/banner_19201080.jpg");
+  background-size:100% auto;
+  background-repeat: no-repeat;
 }
 
 .section2.no-pad {
