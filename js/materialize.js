@@ -3597,7 +3597,7 @@ $(document).ready(function(){
   $.fn.pushpin = function (options) {
 
     var defaults = {
-      top: 0,
+      top: 500,
       bottom: Infinity,
       offset: 0
     };
