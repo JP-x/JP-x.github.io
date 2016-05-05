@@ -2769,6 +2769,14 @@ video.responsive-video {
   height: auto;
 }
 
+img.responsive-img2,
+video.responsive-video {
+  max-width: 100%;
+  height: auto;
+}
+
+
+
 .pagination li {
   display: inline-block;
   font-size: 1.2rem;
