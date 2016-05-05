@@ -29,23 +29,40 @@
     <div class="parallax"><img src="img/banner.jpg" alt="Unsplashed background img 1"></div>
   </div>
 
- <nav class="black pin-top z-depth-1" role="navigation">
+ <nav class="blue pin-top" role="navigation">
     <div class="nav-wrapper container">
-      <a id="logo-container" href="#" class="brand-logo">Logo</a>
-      <ul class="right hide-on-med-and-down">
-        <li><a href="#">Home</a></li>
+      <ul class="hide-on-med-and-down">
+        <li class="active"><a href="#">Home</a></li>
         <li><a href="#">Projects</a></li>
         <li><a href="#">About</a></li>
         <li><a href="#">Contact</a></li>
         <li><a href="#">Resume</a></li>
+        <li>
+            <div class="switch">
+              <label>
+                Day Mode
+                <input type="checkbox">
+                <span class="lever"></span>
+                Night Mode
+              </label>
+            </div>
+        </li>
       </ul>
 
       <ul id="nav-mobile" class="side-nav">
-        <li><a href="#">Home</a></li>
+        <li class = "active"><a href="#">Home</a></li>
         <li><a href="#">Projects</a></li>
         <li><a href="#">About</a></li>
         <li><a href="#">Contact</a></li>
         <li><a href="#">Resume</a></li>
+            <div class="switch blue">
+              <label>
+                Day Mode
+                <input type="checkbox">
+                <span class="lever"></span>
+                Night Mode
+              </label>
+            </div>
       </ul>
       <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
     </div>
@@ -92,7 +109,7 @@
     <div class="section no-pad-bot">
       <div class="container">
         <div class="row center">
-          <h5 class="header col s12 light">A modern responsive front-end framework based on Material Design</h5>
+          <h5 class="header col s12 light white-text">A modern responsive front-end framework based on Material Design</h5>
         </div>
       </div>
     </div>
@@ -118,45 +135,30 @@
     <div class="section no-pad-bot">
       <div class="container">
         <div class="row center">
-          <h5 class="header col s12 light">A modern responsive front-end framework based on Material Design</h5>
+          <h5 class="header col s12 light white-text">A modern responsive front-end framework based on Material Design</h5>
         </div>
       </div>
     </div>
     <div class="parallax"><img src="img/banner.jpg" alt="Unsplashed background img 3"></div>
   </div>
 
-  <footer class="page-footer teal">
+  <footer class="page-footer blue">
     <div class="container">
       <div class="row">
-        <div class="col l6 s12">
-          <h5 class="white-text">Company Bio</h5>
-          <p class="grey-text text-lighten-4">We are a team of college students working on this project like it's our full time job. Any amount would help support and continue development on this project and is greatly appreciated.</p>
-
-
-        </div>
-        <div class="col l3 s12">
-          <h5 class="white-text">Settings</h5>
-          <ul>
-            <li><a class="white-text" href="#!">Link 1</a></li>
-            <li><a class="white-text" href="#!">Link 2</a></li>
-            <li><a class="white-text" href="#!">Link 3</a></li>
-            <li><a class="white-text" href="#!">Link 4</a></li>
-          </ul>
-        </div>
-        <div class="col l3 s12">
-          <h5 class="white-text">Connect</h5>
-          <ul>
-            <li><a class="white-text" href="#!">Link 1</a></li>
-            <li><a class="white-text" href="#!">Link 2</a></li>
-            <li><a class="white-text" href="#!">Link 3</a></li>
-            <li><a class="white-text" href="#!">Link 4</a></li>
-          </ul>
+        <div class="center s12">
+          <a href="https://www.linkedin.com/in/jonathanpadilla4">
+            <img class="responsive-img" src="img/linkedin_white.png" alt="LinkedIn" style="margin-right:20px">
+          </a>
+          <a href="https://github.com/JP-x">
+            <img class="responsive-img" src="img/github_white.png" alt="LinkedIn">
+          </a>
         </div>
       </div>
     </div>
+
     <div class="footer-copyright">
-      <div class="container">
-      Made by <a class="white-text text-lighten-3" href="http://materializecss.com">Materialize</a>
+      <div class="container center">
+        &copy 2016 Jonathan Padilla
       </div>
     </div>
   </footer>

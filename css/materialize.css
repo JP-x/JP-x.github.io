@@ -6325,7 +6325,7 @@ form p:last-child {
 
 .switch label {
   cursor: pointer;
-  color: white;
+  color:white;
 }
 
 .switch label input[type=checkbox] {
@@ -6337,7 +6337,7 @@ form p:last-child {
 toggle right
 */
 .switch label input[type=checkbox]:checked + .lever {
-  background-color: #000000;
+  background-color: #757575;
 }
 
 .switch label input[type=checkbox]:checked + .lever:after {
