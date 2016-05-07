@@ -2866,8 +2866,18 @@ video.responsive-video {
   position: relative;
   overflow: hidden;
   height: 500px;
-  
 }
+
+.parallax-container-day {
+  position: relative;
+  overflow: hidden;
+  height: 500px;
+  display: block;
+  background: rgba(51,153,255,.7);
+}
+
+
+
 
 .parallax {
   position: absolute;
@@ -4197,6 +4207,7 @@ nav .brand-logo {
   font-size: 2.1rem;
   padding: 0;
   white-space: nowrap;
+  padding-top: 1%;
 }
 
 nav .brand-logo.center {
