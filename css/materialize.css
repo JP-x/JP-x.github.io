@@ -3470,31 +3470,6 @@ input[type=range] + .thumb {
   margin-right: -0.75rem;
 }
 
-.container2 {
-  margin: 0 auto;
-  max-width: 1280px;
-  width: 90%;
-  background-image: url("../img/banner_19201080.jpg");
-}
-
-@media only screen and (min-width: 601px) {
-  .container2 {
-    width: 85%;
-  }
-}
-
-@media only screen and (min-width: 993px) {
-  .container2 {
-    width: 70%;
-  }
-}
-
-.container2 .row {
-  margin-left: -0.75rem;
-  margin-right: -0.75rem;
-}
-
-
 
 
 .section {
@@ -4242,16 +4217,17 @@ nav .brand-logo.right {
 }
 
 nav ul {
-  margin: 0;
+  margin:0;
+
 }
 
 nav ul li {
   transition: background-color .3s;
-  float: left;
   padding: 0;
+  float: left;
 }
 
-nav ul li.active {
+nav ul a.active {
   background-color: rgba(0, 0, 0, 0.1);
 }
 
@@ -4262,6 +4238,13 @@ nav ul a {
   display: inline-block;
   padding: 0 15px;
   cursor: pointer;
+}
+
+nav ul a.active {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+nav ul .switch{
 }
 
 nav ul a.btn, nav ul a.btn-large, nav ul a.btn-large, nav ul a.btn-flat, nav ul a.btn-floating {
@@ -4277,6 +4260,7 @@ nav ul a:hover {
 nav ul.left {
   float: left;
 }
+
 
 nav .input-field {
   margin: 0;
@@ -4671,6 +4655,13 @@ small {
 .card.large {
   height: 500px;
 }
+
+.card.large.dark {
+  height: 500px;
+  background-color: #000;
+}
+
+
 
 .card .card-image {
   position: relative;
@@ -5462,6 +5453,13 @@ a.waves-effect .waves-ripple {
 .side-nav .collapsible-body li a,
 .side-nav.fixed .collapsible-body li a {
   padding: 0 37.5px 0 45px;
+}
+
+.side-nav .switch{
+  position:absolute;
+  min-width:100%;
+  bottom:10%;
+  
 }
 
 .collapsible.popout {
@@ -6338,6 +6336,7 @@ form p:last-child {
 .switch label {
   cursor: pointer;
   color:white;
+  font-size:  1rem;
 }
 
 .switch label input[type=checkbox] {

@@ -10,9 +10,9 @@
   <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
   <!--<link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>-->
 </head>
-<body>
+<body id="bod">
 
-  <div id="index-banner" class="parallax-container-day">
+  <div id="index_banner" class="parallax-container-day">
     <div class="section no-pad-bot valign-wrapper">
       <div class="container">
          <!--Workaround for vertical alignment-->
@@ -21,32 +21,30 @@
          <h1 class="row"></h1>
          <!-- -->
         <br><br>
-          <h5 class="valign"><img class="responsive-img" src="img/name_banner_day.png"></img></h5>
+          <h5 class="valign"><img id="n_banner" class="responsive-img" src="img/name_banner_day.png"></img></h5>
         <br><br>
 
       </div>
     </div>
-    <div class="parallax"><img src="img/banner_test.jpg" alt=""></div>
+    <div class="parallax"><img  id=banner_img src="img/banner_test.jpg" alt=""></div>
   </div>
 
- <nav class="center blue darken-1 pin-top" role="navigation">
-    <div class="center nav-wrapper container">
-      <ul class="center hide-on-med-and-down">
-        <li class="active"><a href="#">Home</a></li>
-        <li><a href="#">Projects</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Contact</a></li>
-        <li><a href="https://drive.google.com/file/d/0B03i9_FkWI6OSkplNWhDZ0Rtenc/view?usp=sharing">Resume</a></li>
-        <li>
-            <div class="switch blue">
-              <label>
-                Day Mode
-                <input type="checkbox">
-                <span class="lever"></span>
-                Night Mode
-              </label>
-            </div>
-        </li>
+ <nav class="blue darken-1 pin-top" role="navigation">
+    <div class="nav-wrapper container">
+      <ul class="hide-on-med-and-down center">
+        <a class="active" href="#">Home</a>
+        <a href="#">Projects</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+        <a href="https://drive.google.com/file/d/0B03i9_FkWI6OSkplNWhDZ0Rtenc/view?usp=sharing">Resume</a>   
+        <div class="blue switch right">
+          <label>
+            Day Mode
+            <input type="checkbox"  id="night_mode">
+            <span class="lever"></span>
+            Night Mode
+          </label>
+        </div>
       </ul>
 
       <ul id="nav-mobile" class="side-nav">
@@ -55,14 +53,16 @@
         <li><a href="#">About</a></li>
         <li><a href="#">Contact</a></li>
         <li><a href="https://drive.google.com/file/d/0B03i9_FkWI6OSkplNWhDZ0Rtenc/view?usp=sharing">Resume</a></li>
-            <div class="switch blue">
+        <li>
+            <div class="switch blue center">
               <label>
                 Day Mode
-                <input type="checkbox">
+                <input type="checkbox" id="night_mode2">
                 <span class="lever"></span>
                 Night Mode
               </label>
             </div>
+        </li>
       </ul>
       <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
     </div>
@@ -75,7 +75,7 @@
         <div class="col s12 center">
           <h3><i class="mdi-content-send white-text"></i></h3>
           <h4>Hi</h4>
-          <p class="left-align light">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam scelerisque id nunc nec volutpat. Etiam pellentesque tristique arcu, non consequat magna fermentum ac. Cras ut ultricies eros. Maecenas eros justo, ullamcorper a sapien id, viverra ultrices eros. Morbi sem neque, posuere et pretium eget, bibendum sollicitudin lacus. Aliquam eleifend sollicitudin diam, eu mattis nisl maximus sed. Nulla imperdiet semper molestie. Morbi massa odio, condimentum sed ipsum ac, gravida ultrices erat. Nullam eget dignissim mauris, non tristique erat. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;</p>
+          <p class="left-align light">My name is Jonathan Padilla, and I am a recent graduate from UCR with a degree in Computer Science. I'm interested in software engineering positions.</p>
         </div>
       </div>
 
@@ -94,7 +94,7 @@
       <div class="row">
 
         <div class="col s12 m4">
-          <div class="card large">
+          <div id="hotc1" class="card large">
             <div class="card-image">
               <img src="img/web_img.jpg">
             </div>
@@ -109,12 +109,12 @@
         </div>
 
         <div class="col s12 m4">
-          <div class="card large">
+          <div id="hotc2" class="card large">
             <div class="card-image">
               <img src="img/file_sys_img.jpg">
             </div>
             <div class="card-content">
-            <span class="card-title">File System</span>
+             <span class="card-title">File System</span>
               <p>The filesystem was implemented in C as part of a Senior Design Project at UCR.</p>
             </div>
             <div class="card-action">
@@ -125,7 +125,7 @@
 
 
         <div class="col s12 m4">
-          <div class="card large">
+          <div id="hotc3" class="card large">
             <div class="card-image">
               <img src="img/buffer_atk_img.jpg">
             </div>
