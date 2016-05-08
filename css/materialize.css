@@ -3469,9 +3469,10 @@ input[type=range] + .thumb {
 
 
 
-.section {
+.section p{
   padding-top: 1rem;
   padding-bottom: 1rem;
+  font-weight:300 !important;
 }
 
 .section.no-pad {
