@@ -1,13 +1,33 @@
 .night{
+	transition: background-color .5s ease;
 	background-color: #424242 ;
 	color: white;
 	font-weight:100;
 }
 
 .night .card{
+	transition: background-color .5s ease;
 	background-color:black !important;
 }
 
 .night nav{
+	transition: background-color .5s ease;
 	background-color:black !important;
+}
+
+.night .switch{
+	transition: background-color .5s ease;
+	background-color:black !important;
+}
+
+.night .h1 .h2 .h3 .h4 .h5{
+	transition: background-color .5s ease;
+	font-weight:500;
+}
+
+.night footer.page-footer {
+  transition: background-color .5s ease;
+  margin-top: 20px;
+  padding-top: 20px;
+  background-color: black;
 }
