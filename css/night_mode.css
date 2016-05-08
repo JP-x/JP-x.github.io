@@ -31,3 +31,15 @@
   padding-top: 20px;
   background-color: black;
 }
+
+.night .side-nav{
+	transition: background-color .5s ease;
+	background-color: #424242 ;
+	color: white ;
+	font-weight:100;
+}
+
+.night .side-nav a{
+	color: white;
+	font-weight:100;
+}
