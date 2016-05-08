@@ -15,6 +15,7 @@
    	 		index_banner.className = "parallax-container";
    	 		n_banner.src="img/name_banner_night.png" ;
    	 		banner_img.src="img/banner_night.jpg";
+   	 		bod.className = "night"
    	 	}
    	 	else
    	 	{
@@ -22,6 +23,7 @@
    	 		index_banner.className = "parallax-container-day";
    	 		n_banner.src="img/name_banner_day.png" ;
    	 		banner_img.src="img/banner_test.jpg";
+   	 		bod.className = ""
    	 	}
 
    	 	if($('#night_mode').is(':checked'))
@@ -44,6 +46,7 @@
    	 		banner_img.src="img/banner_night.jpg";
    	 		//check other checkbox
    	 		$('#night_mode2').prop('checked',true);
+   	 		bod.className = "night"
    	 	}
    	 	else
    	 	{
@@ -52,6 +55,7 @@
    	 		n_banner.src="img/name_banner_day.png" ;
    	 		banner_img.src="img/banner_test.jpg";
    	 		$('#night_mode2').prop('checked',false);
+   	 		bod.className = ""
    	 	}
 	});
 
@@ -65,6 +69,7 @@
    	 		n_banner.src="img/name_banner_night.png" ;
    	 		banner_img.src="img/banner_night.jpg";
    	 		$('#night_mode').prop('checked',true);
+   	 		bod.className = "night"
    	 	}
    	 	else
    	 	{
@@ -74,5 +79,6 @@
    	 		banner_img.src="img/banner_test.jpg";
    	 		//check other checkbox
    	 		$('#night_mode').prop('checked',false);
+   	 		bod.className = ""
    	 	}
 	});

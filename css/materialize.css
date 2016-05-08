@@ -4604,7 +4604,7 @@ small {
   border-radius: 2px;
   background-color: #fff;
 }
-
+ 
 .card {
   position: relative;
   margin: 0.5rem 0 1rem 0;
@@ -8273,12 +8273,4 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
   .picker--time .picker__box {
     margin-bottom: 5em;
   }
-}
-
-.dark{
-  background-color:#000 !important;;
-}
-
-body .dark .card .card-content .card-action{
-  background-color:#000 !important;
 }

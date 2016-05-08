@@ -1,3 +1,13 @@
 .night{
-	background-color: black;
+	background-color: #424242 ;
+	color: white;
+	font-weight:100;
+}
+
+.night .card{
+	background-color:black !important;
+}
+
+.night nav{
+	background-color:black !important;
 }
