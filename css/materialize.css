@@ -2873,7 +2873,7 @@ video.responsive-video {
   overflow: hidden;
   height: 500px;
   display: block;
-  background: rgba(51,153,255,.7);
+  /*background: rgba(51,153,255,.7);*/
 }
 
 .parallax {
@@ -2890,8 +2890,8 @@ video.responsive-video {
   position: absolute;
   left: 50%;
   bottom: 0;
-  min-width: 100%;
-  min-height: 100%;
+  min-width: 50%;
+  min-height: 50%;
   -webkit-transform: translate3d(0, 0, 0);
   transform: translate3d(0, 0, 0);
   -webkit-transform: translateX(-50%);
@@ -4246,6 +4246,9 @@ nav ul a.active {
 nav ul .switch{
 }
 
+
+
+
 nav ul a.btn, nav ul a.btn-large, nav ul a.btn-large, nav ul a.btn-flat, nav ul a.btn-floating {
   margin-top: -2px;
   margin-left: 15px;
@@ -5458,7 +5461,7 @@ a.waves-effect .waves-ripple {
   position:absolute;
   min-width:100%;
   bottom:10%;
-  
+  background-color:#1e88e5 ;
 }
 
 .collapsible.popout {

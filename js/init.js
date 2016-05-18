@@ -22,7 +22,7 @@
    	 		//bod.className = "white black-text";
    	 		index_banner.className = "parallax-container-day";
    	 		n_banner.src="img/name_banner_day.png" ;
-   	 		banner_img.src="img/banner_test.jpg";
+   	 		banner_img.src="img/banner_day.jpg";
    	 		bod.className = ""
    	 	}
 
@@ -53,7 +53,7 @@
    	 		//bod.className = "white black-text";
    	 		index_banner.className = "parallax-container-day";
    	 		n_banner.src="img/name_banner_day.png" ;
-   	 		banner_img.src="img/banner_test.jpg";
+   	 		banner_img.src="img/banner_day.jpg";
    	 		$('#night_mode2').prop('checked',false);
    	 		bod.className = ""
    	 	}
@@ -76,7 +76,7 @@
    	 		//bod.className = "white black-text";
    	 		index_banner.className = "parallax-container-day";
    	 		n_banner.src="img/name_banner_day.png" ;
-   	 		banner_img.src="img/banner_test.jpg";
+   	 		banner_img.src="img/banner_day.jpg";
    	 		//check other checkbox
    	 		$('#night_mode').prop('checked',false);
    	 		bod.className = ""
