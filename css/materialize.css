@@ -3442,6 +3442,9 @@ input[type=range] + .thumb {
   -webkit-font-feature-settings: 'liga';
      -moz-font-feature-settings: 'liga';
           font-feature-settings: 'liga';
+  /* added attribute to properly align with text on contact page */
+  vertical-align: bottom;
+  margin-right: 5px;
 }
 
 .container {
@@ -4227,7 +4230,7 @@ nav ul li {
 }
 
 nav ul a.active {
-  background-color: rgba(0, 0, 0, 0.1);
+  background-color: rgba(230, 230, 230, 0.2);
 }
 
 nav ul a {
@@ -4240,7 +4243,7 @@ nav ul a {
 }
 
 nav ul a.active {
-  background-color: rgba(0, 0, 0, 0.1);
+  background-color: rgba(230, 230, 230, 0.2);
 }
 
 nav ul .switch{
@@ -4256,7 +4259,7 @@ nav ul a.btn, nav ul a.btn-large, nav ul a.btn-large, nav ul a.btn-flat, nav ul 
 }
 
 nav ul a:hover {
-  background-color: rgba(0, 0, 0, 0.1);
+  background-color: rgba(230, 230, 230, 0.2);
 }
 
 nav ul.left {

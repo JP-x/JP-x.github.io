@@ -18,10 +18,20 @@
 	}
 
 	if(cur_mode === 'night')
+	{
 		$('#night_mode').prop('checked',false);
+		$('#night_mode2').prop('checked',false);
+	}
 	else if(cur_mode === 'day')
-		$('#night_mode').prop('checked',true);		
-
+	{
+		$('#night_mode').prop('checked',true);
+		$('#night_mode2').prop('checked',true);		
+	}
+	else
+	{
+		$('#night_mode').prop('checked',false);
+		$('#night_mode2').prop('checked',false);
+	}
 
 
 
@@ -32,6 +42,7 @@
 		index_banner.className = "parallax-container-day";
 		n_banner.src="img/name_banner_day.png" ;
 		banner_img.src="img/banner_day.jpg";
+		my_pic.src="img/jip_small_day.jpg";
 		bod.className = "day"
 		localStorage.setItem('site_mode', 'day')
 	}
@@ -42,6 +53,7 @@
 		index_banner.className = "parallax-container";
 		n_banner.src="img/name_banner_night.png" ;
 		banner_img.src="img/banner_night.jpg";
+		my_pic.src="img/jip_small_night.jpg";
 		bod.className = "night"
 	}
 	//set side_nav switch to match main nav switch
@@ -63,7 +75,8 @@
 		index_banner.className = "parallax-container-day";
 		n_banner.src="img/name_banner_day.png" ;
 		banner_img.src="img/banner_day.jpg";
-		$('#night_mode2').prop('checked',false);
+		my_pic.src="img/jip_small_day.jpg";
+		$('#night_mode2').prop('checked',true);
 		bod.className = "day"
 		localStorage.setItem('site_mode', 'day')
 	}
@@ -73,8 +86,9 @@
 		index_banner.className = "parallax-container";
 		n_banner.src="img/name_banner_night.png" ;
 		banner_img.src="img/banner_night.jpg";
+		my_pic.src="img/jip_small_night.jpg";
 		//check other checkbox
-		$('#night_mode2').prop('checked',true);
+		$('#night_mode2').prop('checked',false);
 		bod.className = "night"
 		localStorage.setItem('site_mode', 'night')
 	}
@@ -89,8 +103,9 @@
 		index_banner.className = "parallax-container-day";
 		n_banner.src="img/name_banner_day.png" ;
 		banner_img.src="img/banner_day.jpg";
+		my_pic.src="img/jip_small_day.jpg";
 		//check other checkbox
-		$('#night_mode').prop('checked',false);
+		$('#night_mode').prop('checked',true);
 		bod.className = "day"
 		localStorage.setItem('site_mode', 'day')
 	}
@@ -100,7 +115,8 @@
 		index_banner.className = "parallax-container";
 		n_banner.src="img/name_banner_night.png" ;
 		banner_img.src="img/banner_night.jpg";
-		$('#night_mode').prop('checked',true);
+		my_pic.src="img/jip_small_night.jpg";
+		$('#night_mode').prop('checked',false);
 		bod.className = "night"
 		localStorage.setItem('site_mode', 'night')
 	}
