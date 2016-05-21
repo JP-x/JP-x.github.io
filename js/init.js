@@ -42,9 +42,13 @@
 		index_banner.className = "parallax-container-day";
 		n_banner.src="img/name_banner_day.png" ;
 		banner_img.src="img/banner_day.jpg";
-		my_pic.src="img/jip_small_day.jpg";
 		bod.className = "day"
 		localStorage.setItem('site_mode', 'day')
+
+		try{
+			my_pic.src="img/jip_small_day.jpg";
+		}
+		catch(err){}
 	}
 	else
 	{
@@ -53,8 +57,12 @@
 		index_banner.className = "parallax-container";
 		n_banner.src="img/name_banner_night.png" ;
 		banner_img.src="img/banner_night.jpg";
-		my_pic.src="img/jip_small_night.jpg";
 		bod.className = "night"
+
+		try{
+			my_pic.src="img/jip_small_night.jpg";
+		}
+		catch(err){}
 	}
 	//set side_nav switch to match main nav switch
 	if($('#night_mode').is(':checked'))
@@ -75,10 +83,16 @@
 		index_banner.className = "parallax-container-day";
 		n_banner.src="img/name_banner_day.png" ;
 		banner_img.src="img/banner_day.jpg";
-		my_pic.src="img/jip_small_day.jpg";
 		$('#night_mode2').prop('checked',true);
 		bod.className = "day"
 		localStorage.setItem('site_mode', 'day')
+
+		try{
+			my_pic.src="img/jip_small_day.jpg";
+		}
+		catch(err){}
+
+
 	}
 	else
 	{
@@ -86,11 +100,15 @@
 		index_banner.className = "parallax-container";
 		n_banner.src="img/name_banner_night.png" ;
 		banner_img.src="img/banner_night.jpg";
-		my_pic.src="img/jip_small_night.jpg";
 		//check other checkbox
 		$('#night_mode2').prop('checked',false);
 		bod.className = "night"
-		localStorage.setItem('site_mode', 'night')
+		localStorage.setItem('site_mode', 'night');
+
+		try{
+			my_pic.src="img/jip_small_night.jpg";
+		}
+		catch(err){}
 	}
 	});
 
@@ -103,11 +121,15 @@
 		index_banner.className = "parallax-container-day";
 		n_banner.src="img/name_banner_day.png" ;
 		banner_img.src="img/banner_day.jpg";
-		my_pic.src="img/jip_small_day.jpg";
 		//check other checkbox
 		$('#night_mode').prop('checked',true);
 		bod.className = "day"
-		localStorage.setItem('site_mode', 'day')
+		localStorage.setItem('site_mode', 'day');
+
+		try{
+			my_pic.src="img/jip_small_day.jpg";
+		}
+		catch(err){}
 	}
 	else
 	{
@@ -118,6 +140,11 @@
 		my_pic.src="img/jip_small_night.jpg";
 		$('#night_mode').prop('checked',false);
 		bod.className = "night"
-		localStorage.setItem('site_mode', 'night')
+		localStorage.setItem('site_mode', 'night');
+
+		try{
+			my_pic.src="img/jip_small_night.jpg";
+		}
+		catch(err){}
 	}
 	});
