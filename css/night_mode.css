@@ -50,7 +50,14 @@
 
 .night .card-action a:not(.btn):not(.btn-large):not(.btn-floating){
 	color: #2196F3;
+	font-weight:500;
 }
+
+.night .card-action a{
+	color: #2196F3;
+	font-weight:500 !important;
+}
+
 
 
 .night nav ul a:hover {
@@ -59,4 +66,37 @@
 
 .night .section{
 	font-weight:200;
+}
+
+.day{
+	transition: background-color .5s ease;
+	background-color: #FFF ;
+	color: black;
+	font-weight:200;
+}
+
+
+
+
+
+.day nav{
+	font-weight:200;
+}
+
+.day .section{
+	font-weight:200;
+}
+
+.day .side-nav a{
+	font-weight:400;
+}
+
+.day .h1 .h2 .h3 .h4 .h5{
+	transition: background-color .5s ease;
+	font-weight:500;
+}
+
+
+.day .card-action a{
+	font-weight:500 !important;
 }
