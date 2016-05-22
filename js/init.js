@@ -137,7 +137,6 @@
 		index_banner.className = "parallax-container";
 		n_banner.src="img/name_banner_night.png" ;
 		banner_img.src="img/banner_night.jpg";
-		my_pic.src="img/jip_small_night.jpg";
 		$('#night_mode').prop('checked',false);
 		bod.className = "night"
 		localStorage.setItem('site_mode', 'night');

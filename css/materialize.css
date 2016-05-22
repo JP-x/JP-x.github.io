@@ -4670,6 +4670,10 @@ small {
 
 .card .card-image {
   position: relative;
+  height:200px;
+  text-align:center;
+  padding-top:75px;
+  padding-bottom:50px;
 }
 
 .card .card-image img {
