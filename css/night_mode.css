@@ -87,6 +87,21 @@
 }
 
 
+.night .modal{
+	background-color:#424242;
+	color:white;
+}
+
+.night .modal-footer{
+	background-color:#000;
+	color:white !important;
+} 
+
+.night .modal-footer a{
+	color:white !important;
+} 
+
+
 .day{
 	transition: background-color .5s ease;
 	background-color: #FFF ;
@@ -133,4 +148,15 @@
 
 .day .card-action a{
 	font-weight:500 !important;
+}
+
+
+.day .modal{
+	background-color:#fff;
+	color:black;
+}
+
+.day .modal-footer{
+	background-color:#EEE;
+	color:black;
 }

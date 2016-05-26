@@ -90,11 +90,11 @@
               <span class="card-title" name="top">Project Navigation</span>
             </div>
             <div class="card-action">
-              <a href="#webdev">Web Dev</a>
-              <a href="#unix">Unix/Linux</a>
-              <a href="#compsec">Computer Security</a>
-              <a href="#embedsys">Embedded Systems</a>
-              <a href="#gd">Graphic Design</a>
+              <a href="webdev.html">Web Dev</a>
+              <a href="unix.html">Unix/Linux</a>
+              <a href="compsec.html">Computer Security</a>
+              <a href="embedsys.html">Embedded Systems</a>
+              <a href="gd.html">Graphic Design</a>
             </div>
           </div>
         </div>
@@ -109,7 +109,7 @@
           <div class="collapsible-body"><p>The website developed within a month for international students using javascript, and html.I was in charge of the blog portion of the site. The page was formatted to fit the specifications given by the school.I created the user icons as well as the redesigned banner. I was also given the responsibility of fixing the audio and compressing videos that were originally on the page. To do this I used Adobe Premiere, and open source compression tools. Doing so reduced the video size from upwards of 4GB to 20 MB each. The sound of traffic was also dampened from the original videos.
           <br>
           <br>
-          This was my first experience with HTML.
+          The website was one of my early front-end development projects.
           <br>
           <br>
           <a class="btn disabled">Repository</a>
@@ -125,32 +125,66 @@
       <ul class="collapsible" data-collapsible="accordion">
         <li>
           <div class="collapsible-header"><i class="material-icons">search</i>Twitter Search Engine</div>
-          <div class="collapsible-body"><p>Languages used: PostgreSQL and Java<br>
-          Professional Network application which handles:<br>
-                • New User Registration<br>
-               • User Login/Logout<br>
-                • Change Password<br>
-                • Search People<br>
-                • Sends Connection Request<br>
-                • Accepts or Rejects Connection Request Connection Request<br>
-                • View Friends and then go to a friends profile.<br>
-                • Send a message to anyone on network.<br>
-                • View Messages and then option to delete messages<br>
-          I specifically handled the implementation of the GUI using java awt and swing libraries.<br><br>
-          <a target="_blank" class="waves-effect waves-light btn" href="https://github.com/JP-x/CS166">Repository</a>
-          <a target="_blank" class="waves-effect waves-light btn" href="http://www.engr.ucr.edu/gpp/blog.html">Gif Demo</a>
-          </p></div>
+          <div class="collapsible-body">
+            <p>
+            The project was developed using the Netbeans IDE. 
+            The languages used in the project were JAVA, HTML and CSS.
+            <br><br>
+            The Twitter data stream API was used to gather 5GB of tweets. The tweets were then indexed using the <a href="https://lucene.apache.org/">Lucene</a> open source search software. The front-end of the website was developed by me. The pages were filled dynamically to display results. Through the use of servlets, pages were filled with search results. Tweets that included geolocation would have their location displayed on a map on the generated page. 
+            <br><br>
+            The website was hosted locally.
+
+            <br><br>
+            <a target="_blank" class="waves-effect waves-light btn" href="https://github.com/JP-x/Twitter_Search_Engine">Repository</a>
+            <!-- Modal Trigger -->
+            <a class="waves-effect waves-light btn modal-trigger" href="#modal1">Gif Demo</a>
+           <a target="_blank" class="waves-effect waves-light btn" href="https://drive.google.com/file/d/0B03i9_FkWI6OWTBXRGtEQktUUDA/view?usp=sharing">Design Doc</a>
+            </p>
+            
+
+            <!-- Modal Structure -->
+            <!-- !!!!! THIS MAY BE CAUSING SLOWDOWNS ON PAGE LOADS !!!!!!! -->
+            <div id="modal1" class="modal">
+              <div class="modal-content">
+                <h4>Demo</h4>
+                <p>
+                <div class="video-container">
+                  <iframe width="853" height="480" src="http://i.imgur.com/S7iJJbf.gifv" frameborder="" allowfullscreen></iframe>
+                </div>
+                </p>
+              </div>
+              <div class="modal-footer">
+                <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Close</a>
+              </div>
+            </div>
+
+
+
+          </div>
         </li>
       </ul>
     </div>
   </div>
+
+
 
   <div class="section">
       <div class="container">
       <ul class="collapsible" data-collapsible="accordion">
         <li>
           <div class="collapsible-header"><i class="material-icons">web</i>Portfolio Website</div>
-          <div class="collapsible-body"><p>Lorem ipsum dolor sit amet.</p></div>
+          <div class="collapsible-body">
+          <p>
+          The portfolio website is the one you are currently browsing. The website uses HTML, CSS, JQUERY, and JAVASCRIPT. The site was developed using the 
+          <a target=_"blank" href="http://materializecss.com/">Materialize</a> Framework.
+
+          <br><br>
+          Assets including the different banners and name graphics were created by me in Adobe Photoshop. 
+
+          <br><br>
+          <a target="_blank" class="waves-effect waves-light btn" href="https://github.com/JP-x/JP-x.github.io">Repository</a>
+          <a target="_blank" class="waves-effect waves-light btn" href="index.html">Live Website</a>
+          </p></div>
         </li>
       </ul>
     </div>
