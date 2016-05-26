@@ -84,6 +84,9 @@
 .night .btn{
 	transition: background-color .5s ease;
 	background-color: #2196F3;
+	margin-top: 5px;
+	margin-bottom:5px;
+	width:175px;
 }
 
 
@@ -112,6 +115,9 @@
 .day .btn{
 	transition: background-color .5s ease;
 	background-color:#330033;
+	margin-top: 5px;
+	margin-bottom:5px;
+	width:175px;
 }
 
 .day .collapsible-header{
