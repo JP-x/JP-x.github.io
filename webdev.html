@@ -105,15 +105,46 @@
       <ul class="collapsible" data-collapsible="accordion">
         <li>
           <div class="collapsible-header active"><i class="material-icons">web_asset</i>Website UCR</div>
-          <div class="collapsible-body"><p>The website developed within a month for international students using javascript, and html.I was in charge of the blog portion of the site. The page was formatted to fit the specifications given by the school.I created the user icons as well as the redesigned banner. I was also given the responsibility of fixing the audio and compressing videos that were originally on the page. To do this I used Adobe Premiere, and open source compression tools. Doing so reduced the video size from upwards of 4GB to 20 MB each. The sound of traffic was also dampened from the original videos.
-          <br>
-          <br>
+          <div class="collapsible-body">
+          <p>
+          Languages Used: JavaScript, HTML, CSS <br><br>
+          Team Size: 3 <br><br>
+          Role: Front-End Developer, Video Editor <br><br>
+          The website developed within a month for international students coming to UCR. <br><br>
+          The website was simple in design but was altered slightly to make it appear different from other pages on the engineering portion of the UCR site. The banner was swapped out for a new design using Javascript. <br><br>
+          The banner was designed in Adobe Photoshop by me. The team was told not to alter the slogan “We Engineer Excellence” as well as the college name. The fonts used were not available for free so I had to isolate portions of the original banner with the specified text before making changes.
+          <br><br>
+          Part of the way through development of the page I was handed multiple large videos to add to the site. The videos were too large to add to the page and contained audio issues. I reduced a large amount of background noise using Adobe Premiere. I then reduced the size of the videos using compression software. The videos were reduced from 4GB to 20MB each.<br><br>
+          HTML5 video was used for displaying videos over embedding videos from Youtube onto the website. The choice was made due to Youtube not being available in certain regions. HTML5 video is supported by most modern browsers so it was an easier solution.<br><br>
+          Improvements to the website that could be made include responsiveness of the website. For example on the blog page the tables do not resize with the window or center its content so it is still viewable. However, the given specifications for the project restricted any extensive modifications to the layout of the website.<br><br>
           The website was one of my early front-end development projects.
           <br>
           <br>
           <a class="btn disabled">Repository</a>
           <a target="_blank" class="waves-effect waves-light btn" href="http://www.engr.ucr.edu/gpp/blog.html">Live Website</a>
-          </p></div>
+          <a class="waves-effect waves-light btn modal-trigger" href="#modal3">Banners</a>
+          </p>
+
+            <!-- Modal Structure -->
+            <!-- !!!!! THIS MAY BE CAUSING SLOWDOWNS ON PAGE LOADS !!!!!!! -->
+            <div id="modal3" class="modal">
+              <div class="modal-content">
+                <h4>Banner Designs</h4>
+                <p>
+                  <img class="responsive-img" src="img/banners.jpg"></img>
+                </p>
+              </div>
+              <div class="modal-footer">
+                <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Close</a>
+              </div>
+            </div>
+
+
+
+
+
+
+          </div>
         </li>
       </ul>
     </div>
@@ -126,14 +157,15 @@
           <div class="collapsible-header"><i class="material-icons">search</i>Twitter Search Engine</div>
           <div class="collapsible-body">
             <p>
-            The project was developed using the Netbeans IDE. 
-            The languages used in the project were JAVA, HTML and CSS.
-            <br><br>
-            The Twitter data stream API was used to gather 5GB of tweets. The tweets were then indexed using the <a href="https://lucene.apache.org/">Lucene</a> open source search software. The front-end of the website was developed by me. The pages were filled dynamically to display results. Through the use of servlets, pages were filled with search results. Tweets that included geolocation would have their location displayed on a map on the generated page. 
-            <br><br>
-            The website was hosted locally.
+            Languages Used: Java, HTML, CSS <br><br>
+            Team Size: 2 <br><br>
+            Role: Front-End Developer, Video Editor <br><br>
+            The search engine was developed using the <a target=_"blank" href="https://netbeans.org/">Netbeans IDE</a> and <a target=_"blank" href="https://lucene.apache.org/">Lucene</a> software.<br><br>
+            Tweets were gathered and stored using <a target=_"blank" href=”https://dev.twitter.com/streaming/overview”>Twitter Streaming API </a>. The gathered tweets were then parsed and stored using Lucene.<br><br>
+            Search queries were received through text fields in HTML. The query was then parsed and search results were generated through Lucene and Java. The resulting tweets were then embedded into a dynamically generated HTML file using Java Servlets. If a tweet included a geolocation, the location would be displayed on a map.<br><br>
+            The website was not mobile friendly, but could be fixed through proper usage of classes and rules within the CSS for the website. <br><br>
+            The search engine was hosted locally and deployed within the Netbeans IDE.<br><br>
 
-            <br><br>
             <a target="_blank" class="waves-effect waves-light btn" href="https://github.com/JP-x/Twitter_Search_Engine">Repository</a>
             <!-- Modal Trigger -->
             <a class="waves-effect waves-light btn modal-trigger" href="#modal1">Gif Demo</a>
