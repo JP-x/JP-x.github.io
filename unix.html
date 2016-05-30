@@ -108,7 +108,7 @@
           <div class="collapsible-body"><p>
           Languages Used: Python<br><br>
           Team Size: 2 <br><br>
-          Central Role: Lead Programmer <br><br>
+          Role: Programmer <br><br>
           On Linux systems encrypted passwords are stored within an etc/shadow file. For the project the password length was known to be 1-6 characters long. <br><br>
           To find a matching password all possible password combinations had to be generated then encrypted using the same method as the etc/shadow file. The Linux system uses the md5 encryption method which is contained within a crypt library for Python. <br><br>
           To increase the throughput of generated passwords I first opted to use threading in order to test multiple passwords at once. However, Python has a Global Interpreter Lock (GIL) which limits execution so that only one thread is running at a time. To circumvent this limitation I used the multiprocessing library in Python. <br><br>
@@ -130,11 +130,8 @@
           <div class="collapsible-body">
             <p>
             Languages Used: Java , PostgreSQL<br><br>
-
             Team Size: 2 <br><br>
-
-            Central Role: User Interface Designer<br><br>
-
+            Role: User Interface Designer<br><br>
             Professional Network application which handles:<br>
             • New User Registration<br>
             • User Login/Logout<br>
@@ -145,9 +142,7 @@
             • View Friends and then go to a friends profile.<br>
             • Send a message to anyone on network.<br>
             • View Messages and then option to delete messages<br><br>
-
             I developed the UI for the application in Java using a combination of the AWT and Swing libraries. To show the UI the frames had to be redrawn after actions such as button presses were performed. For certain portions of the application queries were performed within the database and displayed within the UI.<br><br>
-
             Given the opportunity to work on this project again I would have opted for a java library which allowed for easier formatting of windows as some portions of the application varied in size. Either the <a href=”https://docs.oracle.com/javase/tutorial/uiswing/layout/box.html”>Box Layout</a> or <a href=”https://docs.oracle.com/javase/tutorial/uiswing/layout/grid.html”>Grid Layouts</a> would have sufficed.<br><br>
             <a target="_blank" class="waves-effect waves-light btn" href="https://github.com/JP-x/CS166">Repository</a>
             <!-- Modal Trigger -->
@@ -189,8 +184,10 @@
           <div class="collapsible-header"><i class="material-icons">folder</i>File System</div>
           <div class="collapsible-body">
           <p>
-          File system which contained functionality similar to that of current Linux systems.<br><br>
-
+          Languages Used: C++<br><br>
+          Team Size: 5 <br><br>
+          Role: Programmer<br><br>
+          File system which contained functionality similar to current Linux systems.<br><br>
           Supported the following operations on files:<br>
           • Creating,deleting, editing and moving files between directories.<br>
           • File permissions and checks within file system. <br><br>
