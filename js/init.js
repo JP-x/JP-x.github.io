@@ -90,7 +90,7 @@
 		localStorage.setItem('site_mode', 'day')
 
 		try{
-			my_pic.src="img/jip_small_day.jpg";
+			my_pic.src="img/jip_small_day.png";
 		}
 		catch(err){}
 
@@ -129,7 +129,7 @@
 		localStorage.setItem('site_mode', 'day');
 
 		try{
-			my_pic.src="img/jip_small_day.jpg";
+			my_pic.src="img/jip_small_day.png";
 		}
 		catch(err){}
 	}
