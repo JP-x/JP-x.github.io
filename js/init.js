@@ -48,7 +48,7 @@
 		localStorage.setItem('site_mode', 'day')
 
 		try{
-			my_pic.src="img/jip_small_day.jpg";
+			my_pic.src="img/jip_small_day.png";
 		}
 		catch(err){}
 	}
@@ -62,7 +62,7 @@
 		bod.className = "night"
 
 		try{
-			my_pic.src="img/jip_small_night.jpg";
+			my_pic.src="img/jip_small_night.png";
 		}
 		catch(err){}
 	}
@@ -108,7 +108,7 @@
 		localStorage.setItem('site_mode', 'night');
 
 		try{
-			my_pic.src="img/jip_small_night.jpg";
+			my_pic.src="img/jip_small_night.png";
 		}
 		catch(err){}
 	}
@@ -144,7 +144,7 @@
 		localStorage.setItem('site_mode', 'night');
 
 		try{
-			my_pic.src="img/jip_small_night.jpg";
+			my_pic.src="img/jip_small_night.png";
 		}
 		catch(err){}
 	}
