@@ -1,0 +1,226 @@
+.responsive-img{
+	max-width:100%;
+	height:auto;
+}
+
+body{
+background-color: black;
+color:white;
+}
+
+.navbar-brand{
+font-family:  'Konkhmer Sleokchher';
+letter-spacing: -3px;
+color:white;
+font-size:xx-large;
+}
+
+.navbar-brand-subtext{
+	font-family:  'Roboto';
+	font-weight: 600;
+color:grey;
+font-size:large;
+letter-spacing: normal;
+margin-left:-10px;
+}
+
+.navbar-brand:hover{
+    transition: -webkit-text-fill-color 1s ease;
+    background-color: #f3ec78;
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAIAAAD8GO2jAAAFJUlEQVRIiVWWwW4jyRFEX2QVKc2sF/bVJ///T/gH/BkLYw8GDAMzkkh2Vz4fitLafSD6UJUZGRkRzfzt7/84KEcyHLMvF6+Tl1nXMa5zXua8jnqt/FL5tfIn+R5eYJKE1tPVHvHtwr+/8/uv+e0v9duf/f1X/vUL/3nNz7kua4UuUjrNpAaztEwceIFvyTf4pt/hO7nCDEkWLOqkZA6v4QVf9EWuejETxzyvniwLCqcZjJlVWlZlxqu+6Ct8S73Ct+wGiSw4yZFaVhjFJVzxRa5w0SFjnnOt1EvlXlLWzDlYZQfpQV3DFV/JK74mr/BCBiQsc4QyZ4bOciZXvchFJ0wz5nnpFe6hi426q3oABgdOvJIXeGFX5/q5gwUFMaE6o7jgBa/m0rsNc/bsDh0SquyqVd1JU4n1vLEJ5oVcyTWZIaRDKQnmpMoRJ1zwYs9mWHP2aCMFiaHT1uhSG7rombrEK3UNl3DZE6RCFmqadIIjjGLi2Oy3o9eYjjZJYmlCaFqwKlKfLF1wyiW5JCMprSQg6WSZBqgwcOiUqbMZ9ddZDKmm2trTtFEkViycMOCCAwfMZCYDCgZMMshM1SaBklrWMsua/6xDAhCSPM8gtHasoouaYSQzqaRIAVCkQskgC5KESFoaFjnNpAySCsLmJ6aItNIxAweWRgIJIVVJ2zwtVLCUsLe34IQZJlFIWkxGANRuIh2qQuhoYsFIdg81ocieYx/Alu70wpO+657g89mrojZjoDR2qMLK82CevxE3HrCwaVmmF+vkDAvW3IcS87kJUbpJR1UaWlp9cr939IkrGJAmbc7mXJwHZ1hmTSIJRIg+QX0xxZKAgWAr0c/an/jFThpPOTvHySM57WPmnDw1I8TKvqWKTTfV6XZJi2CjX4Nqq2iWHnJ0HvAg58Fhnc0xN/RdNwQ0UZvupGOb3s1sba2mFxuLm09ZcppDDnkkDzhOz3DO/2XUje55zY4NzWqqWWa/tGSfbGxXe7aHPuRu7s2DHM1RHGHtYOdZeUvQXdrl6tSSZi3PZXVG2/21A3s3lqO5t7fm3tzMIz46a0/gc4gEWoYBbbZfeuEiiyxrWQsqaFfSrMWxNnZuza35II/mAWdlBac7b5OvTp30c8m7QU5cuKDNSkpNtZhuj+a++DA3+ZCbucsjWZ2F/aWiL33LF7+46P1d3KMcMLC4aBJ0Le6Lj8X74q15Nze5m1NPWNAzie60+LJvk7I3S2vFpQd1brrscI4MVFZza96b9/bN7Akey3s4YZH+pMinz55uRqO9mrXolW6yOBfnyTVMrUQ5m9vpj+aneZf35kPu5JRTGnzKNM8e8KVuId1u66+TPhknc/CIs1Il5mg+Oj+XP5qff1DkQdazwbN0diKBO5SEbg89mkfnWPZKFmNxKaaUUR+dW/PDvDVv8i43ucshawfE/D+V/hEwK1nxIA+5t/fOufDMmFwqg+24HPrR/Oz60f7svMMNDnPK2hE58yUhd6IR99+MMxxwhw9zXzwWNrUYofbe8JBb501/yttTptzlhCaNzu3jZ1RrYmK5iqN4hBubWR/SHZrRVEhocsi9eZM38w4fPPk5YanALPornYNxFas4Bo+R+/AjfOAHucvZ0NSOikJy6kPeO2/NG1tCuzrPxJrTmC2aLgxrcAwfI/fiY+SjeA/v5N4cjfuz8im3Ux5yk3d9h5s53L50YQPzYvfTwJ0n9uOSx+R24WPyPngv3uAGJ2nlM88lDTtEv8h5yKkNJgj/BU1C2PQYgFAnAAAAAElFTkSuQmCC);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
+}
+
+.nav-link{
+color:white;
+}
+
+.nav-link:hover{
+color:grey;
+}
+
+.logo-binary{
+}
+
+.logo-name{
+
+}
+
+.navbar-toggler-icon{
+	border-color:white;
+}
+
+/* OLD CSS  */
+
+.night{
+	transition: background-color .5s ease;
+	background-color: #424242 ;
+	color: white;
+	font-weight:200;
+}
+
+
+
+
+.night .card{
+	transition: background-color .5s ease;
+	background-color:black !important;
+}
+
+
+.night nav{
+	transition: background-color .5s ease;
+	background-color:black !important;
+}
+
+.night .switch{
+	transition: background-color .5s ease;
+	background-color:black !important;
+}
+
+.night .h1 .h2 .h3 .h4 .h5{
+	transition: background-color .5s ease;
+	font-weight:500;
+}
+
+.night footer.page-footer {
+  transition: background-color .5s ease;
+  margin-top: 20px;
+  padding-top: 20px;
+  background-color: black;
+}
+
+.night .side-nav{
+	transition: background-color .5s ease;
+	background-color: #424242 ;
+	color: white ;
+	font-weight:100;
+}
+
+.night .side-nav a{
+	color: white;
+	font-weight:100;
+}
+
+.night .card-action a:not(.btn):not(.btn-large):not(.btn-floating){
+	color: #2196F3;
+	font-weight:500;
+}
+
+.night .card-action a{
+	color: #2196F3;
+	font-weight:500 !important;
+}
+
+
+
+.night nav ul a:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.night .section{
+	font-weight:300;
+}
+
+
+.night .collapsible-header{
+	transition: background-color .5s ease;
+	background-color: #000 ;
+	color: white;
+	font-weight:300;
+}
+
+.night .collapsible-body{
+	font-weight:300;
+}
+
+
+.night .btn{
+	transition: background-color .5s ease;
+	background-color: #2196F3;
+	margin-top: 5px;
+	margin-bottom:5px;
+	width:175px;
+}
+
+
+.night .modal{
+	background-color:#424242;
+	color:white;
+}
+
+.night .modal-footer{
+	background-color:#000;
+	color:white !important;
+} 
+
+.night .modal-footer a{
+	color:white !important;
+} 
+
+
+.day{
+	transition: background-color .5s ease;
+	background-color: #FFF ;
+	color: black;
+	font-weight:200;
+}
+
+.day .btn{
+	transition: background-color .5s ease;
+	background-color:#330033;
+	margin-top: 5px;
+	margin-bottom:5px;
+	width:175px;
+}
+
+.day .collapsible-header{
+	transition: background-color .5s ease;
+	background-color: #FFF ;
+	color: black;
+	font-weight:300;
+}
+
+.day .collapsible-body{
+	font-weight:300;
+}
+
+
+
+
+.day nav{
+	font-weight:200;
+}
+
+.day .section{
+	font-weight:300;
+}
+
+.day .side-nav a{
+	font-weight:400;
+}
+
+.day .h1 .h2 .h3 .h4 .h5{
+	transition: background-color .5s ease;
+	font-weight:500;
+}
+
+
+.day .card-action a{
+	font-weight:500 !important;
+}
+
+
+.day .modal{
+	background-color:#fff;
+	color:black;
+}
+
+.day .modal-footer{
+	background-color:#EEE;
+	color:black;
+}
