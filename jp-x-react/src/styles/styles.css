@@ -96,13 +96,15 @@ body {
 	white-space: nowrap;
 	min-width: 100%;
 	text-transform: uppercase;
-	
+	overflow-x: hidden;
 }
 
 .marquee {
 	display: flex;
 	flex-shrink: 0;
 	align-items: center;
+	overflow-x: hidden;
+	height:1.80em;
 }
 
 .marquee-left {
