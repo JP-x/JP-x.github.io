@@ -3,22 +3,32 @@ import RequestQuoteIcon from '@mui/icons-material/RequestQuote';
 import BrushIcon from '@mui/icons-material/Brush';
 import WebIcon from '@mui/icons-material/Web';
 import AccountBoxIcon from '@mui/icons-material/AccountBox';
+import * as content from '../repository/content'
 
-export default function InfoSectionRight({ mode, direction, color }) {
+export default function InfoSectionRight() {
     return (
         <>
-            <div className="container">
+            <div className="container mt-3em mb-3em">
                 <div className="row">
-                    <div className="col-sm-12 col-md-6">
+                    <div className="order-1 col-sm-12 col-md-7 ">
+                        <div className="row info-text text-teal">
+                            <div className="col-sm-12 col-md-6">
+                                Software Engineer
+                            </div>
+                            <div className="col-sm-12 col-md-6">
+                                {content.smDates}
+                            </div>
+                        </div>
+
                         <div className="info-text">
-                            {sm_points.map((item) => <li>{item}</li>)}
+                            {content.smData.map((item) => <li key={item + "1"}>{item}</li>)}
                         </div>
                         <ul>
                         </ul>
                     </div>
-                    <div className="col-sm-12 col-md-6">
+                    <div className="order-sm-last col-sm-12 col-md-5">
                         <div>
-                            <h1>SAN MANUEL CASINO</h1>
+                            <h1 className="info-text">CASINO RIGHT</h1>
                             <CasinoIcon className="giant-icon" />
                         </div>
                     </div>
@@ -29,10 +39,3 @@ export default function InfoSectionRight({ mode, direction, color }) {
         </>
     );
 }
-
-
-const sm_points =
-    [
-        "Developed, installed, tested, debugged, and documented programs and applications using various IDEs including Visual Studio, Visual Studio Code and Mulesoft Anypoint Studio.",
-        "Developed and collaborated with other developers to deliver enterprise software using C#, Asp.Net MVC, HTML, CSS, Javascript, and Typescript. All of which were supported by APIs deployed via Microsoft Azure, Microsoft IIS, and/or Mulesoft.",
-        "Collaborated with network administrators, systems analysts, and software engineers to assist in resolving problems with existing software products or company software systems."];

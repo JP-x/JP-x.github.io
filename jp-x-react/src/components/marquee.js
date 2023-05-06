@@ -3,7 +3,6 @@ const technologies = [".Net", "Asp.Net MVC", "Asp.Net Razor", "Asp.Net AJAX", "A
 const tools = ["Visual Studio", "Team Foundation Server(TFS)", "SQL Management Studio", "Active Directory", "Microsoft Azure", "Git", "IIS"];
 export default function Marquee({ mode, direction, color }) {
     var marqueeData = languages;
-    console.log(mode);
     switch (mode) {
         case "Languages":
             marqueeData = languages;
@@ -47,16 +46,16 @@ export default function Marquee({ mode, direction, color }) {
         <>
         <div className="marquee-wrapper">
         <section className={marqueeClassList}>
-                {marqueeData.map((item) => <p>&nbsp;&nbsp;{item}&nbsp;&nbsp;<span style={{color:"white"}}>•</span></p>)}
+                {marqueeData.map((item) => <p key={item + '1'}>&nbsp;&nbsp;{item}&nbsp;&nbsp;<span style={{color:"white"}}>•</span></p>)}
         </section>
         <section className={marqueeClassList}>
-                {marqueeData.map((item) => <p>&nbsp;&nbsp;{item}&nbsp;&nbsp;<span style={{color:"white"}}>•</span></p>)}
+                {marqueeData.map((item) => <p key={item + '2'}>&nbsp;&nbsp;{item}&nbsp;&nbsp;<span style={{color:"white"}}>•</span></p>)}
         </section>
         <section className={marqueeClassList}>
-                {marqueeData.map((item) => <p>&nbsp;&nbsp;{item}&nbsp;&nbsp;<span style={{color:"white"}}>•</span></p>)}
+                {marqueeData.map((item) => <p key={item + '3'}>&nbsp;&nbsp;{item}&nbsp;&nbsp;<span style={{color:"white"}}>•</span></p>)}
         </section>
         <section className={marqueeClassList}>
-                {marqueeData.map((item) => <p>&nbsp;&nbsp;{item}&nbsp;&nbsp;<span style={{color:"white"}}>•</span></p>)}
+                {marqueeData.map((item) => <p key={item + '4'}>&nbsp;&nbsp;{item}&nbsp;&nbsp;<span style={{color:"white"}}>•</span></p>)}
         </section>
         
         </div>

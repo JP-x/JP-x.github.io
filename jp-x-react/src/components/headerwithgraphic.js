@@ -1,6 +1,6 @@
 export default function HeaderWithGraphic({ mode, direction, color }) {
     return (
-        <div className="container-fluid">
+        <div className="container-fluid mt-3em mb-3em section-min-height">
         <div className="row">
           <div className="col-7">
             <h1 className="stretched-big-text">EXPERIENCED IN</h1>

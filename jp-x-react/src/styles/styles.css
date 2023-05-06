@@ -4,33 +4,37 @@
 	--accent-purple: #ba7aff;
 }
 
-.stretched-big-text{
+.stretched-big-text {
 	font-family: 'PT Sans Narrow', sans-serif;
 	font-size: 3em;
-	display:block;
+	display: block;
 }
 
-.gradient-text{
-    background-color: #f3ec78;
-    background-image: radial-gradient(#eef3f2, #11e0e4,#8f9be8,#086bff);
-    background-size: 100%;
-    -webkit-background-clip: text;
-    -moz-background-clip: text;
-    -webkit-text-fill-color: transparent; 
-    -moz-text-fill-color: transparent;
+.gradient-text {
+	background-color: #f3ec78;
+	background-image: radial-gradient(#6adae9, #11e0e4, #8f9be8, #065de0);
+	background-size: 100%;
+	-webkit-background-clip: text;
+	-moz-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	-moz-text-fill-color: transparent;
 }
 
-.info-text{
-	font-family: 'Roboto Mono',sans-serif;
+.section-min-height{
+	min-height:0.5vw;
 }
 
-.info-text-teal{
-	color:var(--accent-teal);
+.info-text {
+	font-family: 'Roboto Mono', sans-serif;
 }
 
-.giant-icon{
-	font-size:15em !important;
-	margin:auto;
+.text-teal {
+	color: var(--accent-teal);
+}
+
+.giant-icon {
+	font-size: 15em !important;
+	margin: auto;
 }
 
 .responsive-img {
@@ -51,6 +55,14 @@
 
 .padding-top-2em {
 	padding-top: 2em;
+}
+
+.mt-3em{
+	margin-top:3em;
+}
+
+.mb-3em{
+	margin-bottom:3em;
 }
 
 body {
@@ -133,7 +145,7 @@ body {
 	flex-shrink: 0;
 	align-items: center;
 	overflow-x: hidden;
-	height:1.80em;
+	height: 1.80em;
 }
 
 .marquee-left {
@@ -151,8 +163,6 @@ body {
 	font-weight: 400;
 	margin-bottom: 0;
 }
-
-
 
 .marquee-gold p:nth-child(3n) {
 	color: var(--accent-gold);
