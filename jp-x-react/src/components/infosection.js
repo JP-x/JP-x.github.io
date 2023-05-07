@@ -5,7 +5,16 @@ import WebIcon from '@mui/icons-material/Web';
 import AccountBoxIcon from '@mui/icons-material/AccountBox';
 import * as content from '../repository/content'
 
-export default function InfoSectionRight() {
+//order-md-first
+export default function InfoSection({imageDirection}) {
+    var imageClasses = "order-sm-last order-md-first col-sm-12 col-md-5";
+    if(imageDirection == "left"){
+        imageClasses = "order-sm-last order-md-first col-sm-12 col-md-5";
+    }
+    else{
+        imageClasses = "order-sm-last col-sm-12 col-md-5";
+    }
+
     return (
         <>
             <div className="container mt-3em mb-3em">
@@ -26,9 +35,9 @@ export default function InfoSectionRight() {
                         <ul>
                         </ul>
                     </div>
-                    <div className="order-sm-last col-sm-12 col-md-5">
+                    <div className={imageClasses}>
                         <div>
-                            <h1 className="info-text">CASINO RIGHT</h1>
+                            <h1 className="info-text">CASINO</h1>
                             <CasinoIcon className="giant-icon" />
                         </div>
                     </div>

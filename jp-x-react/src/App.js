@@ -1,7 +1,6 @@
 import './App.css';
 import HeaderWithGraphic from './components/headerwithgraphic';
-import InfoSectionLeft from './components/infosectionleft';
-import InfoSectionRight from './components/infosectionright';
+import InfoSection from './components/infosection';
 import Marquee from './components/marquee';
 import Navbar from './components/navbar.js'
 import SectionDivider from './components/sectiondivider';
@@ -18,12 +17,12 @@ function App() {
         <Marquee mode="Technologies" direction="right" color="purple"/>
         <Marquee mode="Tools" direction="left" color="gold"/>
         <SectionDivider title="Experience" />
-        <InfoSectionLeft/>
-        <InfoSectionRight/>
+        <InfoSection imageDirection="left"/>
+        <InfoSection imageDirection="right"/>
         <SectionDivider title="Projects" />
-        <InfoSectionLeft/>
-        <InfoSectionRight/>
-        <InfoSectionLeft/>
+        <InfoSection imageDirection="left"/>
+        <InfoSection imageDirection="right"/>
+        <InfoSection imageDirection="left"/>
     </>
   );
 }
