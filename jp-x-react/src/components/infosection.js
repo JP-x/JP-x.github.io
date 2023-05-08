@@ -7,19 +7,19 @@ import * as content from '../repository/content'
 
 //order-md-first
 export default function InfoSection({imageDirection}) {
-    var imageClasses = "order-sm-last order-md-first col-sm-12 col-md-5";
+    var imageClasses = "order-sm-last order-md-first col-sm-12 col-md-4";
     if(imageDirection == "left"){
-        imageClasses = "order-sm-last order-md-first col-sm-12 col-md-5";
+        imageClasses = "order-sm-last order-md-first col-sm-12 col-md-4";
     }
     else{
-        imageClasses = "order-sm-last col-sm-12 col-md-5";
+        imageClasses = "order-sm-last col-sm-12 col-md-4";
     }
 
     return (
         <>
-            <div className="container mt-3em mb-3em">
+            <div className="container mt-3em block-section">
                 <div className="row">
-                    <div className="order-1 col-sm-12 col-md-7 ">
+                    <div className="order-1 col-sm-12 col-md-8 ">
                         <div className="row info-text text-teal">
                             <div className="col-sm-12 col-md-6">
                                 Software Engineer
