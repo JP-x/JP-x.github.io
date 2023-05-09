@@ -36,7 +36,7 @@ export default function InfoSection({imageDirection}) {
                         </ul>
                     </div>
                     <div className={imageClasses}>
-                        <div>
+                        <div className="gradient-on-hover">
                             <h1 className="info-text">CASINO</h1>
                             <CasinoIcon className="giant-icon" />
                         </div>

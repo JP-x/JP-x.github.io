@@ -69,6 +69,30 @@ body{
 	color:black;
 }
 
+.gradient-on-hover {
+	min-height: 100%;
+	z-index: 1;
+	border-top: solid hsl(344, 100%, 50%) 0.5em;
+  }
+  
+  .gradient-on-hover:hover {
+	content: "";
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background-image: linear-gradient(
+	  to bottom,
+	  hsl(344, 100%, 50%),
+	  hsl(31, 90%, 65%)
+	);
+	z-index: -1;
+	transition: opacity 0.5s linear, color 0.5s linear;
+	opacity: 1;
+	color:black;
+  }
+
+
 .btn-dark{
 	background-color: black;
 	font-family: 'Roboto Mono', sans-serif;
@@ -91,6 +115,11 @@ body{
 	position: relative;
 	width: 100%;
 }
+.bg-wrapper{
+	background-image: url(../img/bluegreen_spiral.svg);
+	background-repeat:no-repeat;
+	background-position: right;
+}
 
 .section-min-height {
 	min-height: 0.5vw;
@@ -105,7 +134,9 @@ body{
 }
 
 .giant-icon {
-	font-size: 15em !important;
+	max-width:100%;
+	max-height:50%;
+	font-size: 30vw !important;
 	margin: auto;
 }
 
