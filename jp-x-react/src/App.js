@@ -1,11 +1,12 @@
 import './App.css';
 import HeaderWithGraphic from './components/headerwithgraphic';
-import InfoSection from './components/infosection';
 import Marquee from './components/marquee';
 import Navbar from './components/navbar.js'
 import SectionDivider from './components/sectiondivider';
 import LightSection from './components/lightsection';
 import BrandedFooter from './components/brandedfooter';
+import ExperienceSection from './components/experience/experiencesection';
+import ProjectSection from './components/project/projectsection';
 
 function App() {
   return (
@@ -17,12 +18,9 @@ function App() {
         <Marquee mode="Technologies" direction="right" color="purple" />
         <Marquee mode="Tools" direction="left" color="gold" />
         <SectionDivider title="Experience" />
-        <InfoSection imageDirection="left" />
-        <InfoSection imageDirection="right" />
+        <ExperienceSection/>
         <SectionDivider title="Projects" />
-        <InfoSection imageDirection="left" />
-        <InfoSection imageDirection="right" />
-        <InfoSection imageDirection="left" />
+        <ProjectSection/>
         <LightSection />
         <BrandedFooter/>
       </div>
