@@ -15,11 +15,10 @@ export default function ProjectItem({imageDirection, data}) {
                 <div className="row">
                     <div className="order-1 col-sm-12 col-md-8 ">
                         <div className="row info-text text-teal">
-                            <div className="col-sm-12 col-md-6">
+                            <div className="col-sm-12 col-md-2">
                             <a className="text-teal" href={data.demoUrl} target="_blank" role="button">VIEW DEMO</a>
                             </div>
-                            <div className="col-sm-12 col-md-6">
-                                {data.dates}
+                            <div className="col-sm-12 col-md-10">| {data.dates}
                             </div>
                         </div>
 
@@ -30,7 +29,7 @@ export default function ProjectItem({imageDirection, data}) {
                         </ul>
                     </div>
                     <div className={imageClasses}>
-                        <div className="gradient-on-hover text-center-on-sm">
+                        <div className="red-hr text-center-on-sm">
                             <h1 className="info-text">{data.name}</h1>
                             <DisplayIcon iconName={data.icon}  />
                         </div>

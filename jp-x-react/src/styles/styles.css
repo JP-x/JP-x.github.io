@@ -3,6 +3,7 @@
 	--accent-teal: #51ffae;
 	--accent-purple: #ba7aff;
 }
+
 /*
 body{
 	background-color: rgb(23, 23, 23) !important;
@@ -23,23 +24,23 @@ body{
 .info-text-large {
 	font-family: 'Roboto Mono', sans-serif;
 	font-size: 2em;
-	font-weight:bold;
+	font-weight: bold;
 	display: block;
 }
 
-.m-auto{
-	margin:auto;
+.m-auto {
+	margin: auto;
 }
 
-.white-text{
-	color:white;
+.white-text {
+	color: white;
 }
 
-.black-text{
-	color:black;
+.black-text {
+	color: black;
 }
 
-.icon-large{
+.icon-large {
 	font-size: 3em;
 }
 
@@ -53,8 +54,8 @@ body{
 	-moz-text-fill-color: transparent;
 }
 
-.small-height{
-	height:1em;
+.small-height {
+	height: 1em;
 }
 
 
@@ -67,44 +68,28 @@ body{
 }
 
 .light-section {
-	background-color:white;
-	color:black;
+	background-color: white;
+	color: black;
 }
 
-.gradient-on-hover {
+.red-hr {
 	min-height: 100%;
 	z-index: 1;
 	border-top: solid hsl(344, 100%, 50%) 0.5em;
-  }
-  
-  .gradient-on-hover:hover {
-	content: "";
-	top: 0;
-	right: 0;
-	bottom: 0;
-	left: 0;
-	background-image: linear-gradient(
-	  to bottom,
-	  hsl(344, 100%, 50%),
-	  hsl(31, 90%, 65%)
-	);
-	z-index: -1;
-	transition: opacity 0.5s linear, color 0.5s linear;
-	opacity: 1;
-	color:black;
-  }
-
-
-.btn-dark{
-	background-color: black;
-	font-family: 'Roboto Mono', sans-serif;
-	border-radius:0px;
 }
 
-.btn-light{
+
+
+.btn-dark {
+	background-color: black;
+	font-family: 'Roboto Mono', sans-serif;
+	border-radius: 0px;
+}
+
+.btn-light {
 	background-color: white;
 	font-family: 'Roboto Mono', sans-serif;
-	border-radius:0px;
+	border-radius: 0px;
 }
 
 
@@ -117,9 +102,10 @@ body{
 	position: relative;
 	width: 100%;
 }
-.bg-wrapper{
+
+.bg-wrapper {
 	background-image: url(../img/bluegreen_spiral.svg);
-	background-repeat:no-repeat;
+	background-repeat: no-repeat;
 	background-position: right;
 }
 
@@ -135,26 +121,31 @@ body{
 	color: var(--accent-teal);
 }
 
-.icon-wrapper{
-	max-width:100%;
-	max-height:33%;
+.icon-wrapper {
+	max-width: 100%;
+	max-height: 33%;
 	margin: auto;
 }
 
 .giant-icon {
-	max-width:100%;
-	max-height:33%;
+	max-width: 100%;
+	max-height: 33%;
 	font-size: 30vw !important;
 	margin: auto;
 }
 
 /* Small devices (landscape phones, 576px and up) */
-@media (max-width: 767.98px) { 
-	.text-center-on-sm{
+@media (max-width: 767.98px) {
+	.text-center-on-sm {
 		text-align: center;
 	}
- }
+}
 
+@media (min-width: 768px) {
+	.text-right-on-md {
+		text-align: right;
+	}
+}
 
 
 .responsive-img {
@@ -177,25 +168,26 @@ body{
 	padding-top: 2em;
 }
 
-.pt-1em{
-	padding-top:1em;
+.pt-1em {
+	padding-top: 1em;
 }
 
-.pb-1em{
-	padding-bottom:1em;
+.pb-1em {
+	padding-bottom: 1em;
 }
 
-.pb-3em{
-	padding-bottom:3em;
+.pb-3em {
+	padding-bottom: 3em;
 }
 
-.pt-3em{
-	padding-top:3em;
+.pt-3em {
+	padding-top: 3em;
 }
 
-.p-1em{
-	padding:1em;
+.p-1em {
+	padding: 1em;
 }
+
 .mt-3em {
 	margin-top: 3em;
 }
