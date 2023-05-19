@@ -1,6 +1,7 @@
 import redBlueSVG  from "../img/redblue_spiral.svg"
 import orangeRedSVG  from "../img/redorange_spiral.svg"
 import blueGreenSVG from "../img/bluegreen_spiral.svg"
+import FlippingText from "./flippingtext";
 
 export default function HeaderWithGraphic({ mode, direction, color }) {
     return (
@@ -8,7 +9,7 @@ export default function HeaderWithGraphic({ mode, direction, color }) {
         <div className="row">
           <div className="col-7">
             <h1 className="stretched-big-text">EXPERIENCED IN</h1>
-            <h1 className="stretched-big-text gradient-text">SOFTWARE DEVELOPMENT</h1>
+            <FlippingText/>
             <h2>4.5 Years of Professional Software Development Experience.</h2>
           </div>
           <div className="col-5">

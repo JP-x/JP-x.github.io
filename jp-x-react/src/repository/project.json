@@ -25,8 +25,8 @@
         {
             "name": "Asp.Net MVC Web Application",
             "icon": "WebIcon",
-            "demoUrl" : "https://artistportfolio.azurewebsites.net/",
-            "dates": "Sept. 2021 - Present",
+            "demoUrl" : "https://overwatchheroes.azurewebsites.net/",
+            "dates": "Jun. 2017",
             "description": [
                 "Informational website inspired by a video game utilizing ASP.NET MVC",
                 "Deployed and published website through Microsoft Azure using Visual Studio.",

@@ -14,6 +14,51 @@ body{
 }
 */
 
+/* outlined buttons with transitions */
+a.outlineButton {
+	display: inline-block;
+	padding: 0.10em 3.0em;
+	border: 0.1em solid var(--accent-teal);
+	margin: 0 .3em 0.3em 0;
+	border-radius: 0.12em;
+	box-sizing: border-box;
+	text-decoration: none;
+	font-family: "Roboto Mono",sans-serif;
+	font-weight: bold;
+	color: black;
+	background-color: var(--accent-teal);
+	text-align: center;
+	transition: all 0.2s;
+	position: relative;
+  }
+  
+  a.outlineButton span {
+	position: relative;
+	z-index: 2;
+  }
+  
+  a.outlineButton:after {
+	position: absolute;
+	content: "";
+	top: 0;
+	left: 0;
+	width: 0;
+	height: 100%;
+	background: black;
+	color: white;
+	transition: all .35s;
+  }
+  
+  a.outlineButton:hover {
+	color: white;
+  }
+  
+  a.outlineButton:hover:after {
+	width: 100%;
+	color:white;
+  }
+  
+
 
 .stretched-big-text {
 	font-family: 'PT Sans Narrow', sans-serif;
@@ -115,6 +160,22 @@ body{
 
 .info-text {
 	font-family: 'Roboto Mono', sans-serif;
+}
+
+.text-2-em{
+	font-size: 2em;
+}
+
+.demo-btn{
+	text-decoration:none;
+	border: solid 1px;
+	border-radius:5px;
+	padding: 5px;
+}
+
+.demo-btn:hover{
+	color:teal;
+	text-decoration:underline;
 }
 
 .text-teal {
@@ -281,7 +342,6 @@ body {
 
 .marquee-left {
 	animation: slide-left 60s linear infinite;
-
 }
 
 .marquee-right {

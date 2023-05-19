@@ -1,5 +1,3 @@
-import CasinoIcon from '@mui/icons-material/Casino';
-import * as content from '../repository/content'
 import blueGreenSVG from "../img/bluegreen_spiral.svg"
 export default function LightSection() {
     return (
@@ -29,13 +27,13 @@ export default function LightSection() {
                     </div>
                     <div className="col-sm-12 col-md-5">
                         <div>
-                        <img src={blueGreenSVG}></img>
+                        <img alt="shapes graphic" src={blueGreenSVG}></img>
                         </div>
                     </div>
                 </div>
                 <div className="row">
                 <div className="col text-center">
-                    <a className="btn btn-lg btn-dark p-1em" href="#" role="button">&#62; CONTACT ME</a>
+                    <a className="btn btn-lg btn-dark p-1em" rel="noreferrer" href="https://www.linkedin.com/in/jonathanpadilla4" target="_blank" role="button">&#62; CONTACT ME</a>
                 </div>
                 </div>
                 <div className="row mt-3em">

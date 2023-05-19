@@ -6,23 +6,24 @@ import AccountBoxIcon from '@mui/icons-material/AccountBox';
 
 export default function DisplayIcon({iconName})
 {
+    let size = 250;
     let iconComponent;
     switch(iconName)
     {
         case "RequestQuoteIcon" :
-            iconComponent = <RequestQuoteIcon sx={{fontSize: 300}} className="icon-wrapper"/>
+            iconComponent = <RequestQuoteIcon sx={{fontSize: size}} className="icon-wrapper"/>
             break;
         case "AccountBoxIcon":
-            iconComponent = <AccountBoxIcon sx={{fontSize: 300}} className="icon-wrapper"/>
+            iconComponent = <AccountBoxIcon sx={{fontSize: size}} className="icon-wrapper"/>
             break;
         case "BrushIcon":
-            iconComponent = <BrushIcon sx={{fontSize: 300}} className="icon-wrapper"/>
+            iconComponent = <BrushIcon sx={{fontSize: size}} className="icon-wrapper"/>
             break;
         case "WebIcon":
-            iconComponent = <WebIcon sx={{fontSize: 300}} className="icon-wrapper"/>
+            iconComponent = <WebIcon sx={{fontSize: size}} className="icon-wrapper"/>
             break;
         case "CasinoIcon":
-            iconComponent = <CasinoIcon sx={{fontSize: 300}} className="icon-wrapper"/>
+            iconComponent = <CasinoIcon sx={{fontSize: size}} className="icon-wrapper"/>
             break;
         default:
     }

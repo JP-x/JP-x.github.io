@@ -1,11 +1,11 @@
 import DisplayIcon from '../displayicon';
 
-export default function ProjectItem({imageDirection, data}) {
+export default function ProjectItem({ imageDirection, data }) {
     var imageClasses = "order-sm-last order-md-first col-sm-12 col-md-4";
-    if(imageDirection == "left"){
+    if (imageDirection === "left") {
         imageClasses = "order-sm-last order-md-first col-sm-12 col-md-4";
     }
-    else{
+    else {
         imageClasses = "order-sm-last col-sm-12 col-md-4";
     }
 
@@ -15,10 +15,16 @@ export default function ProjectItem({imageDirection, data}) {
                 <div className="row">
                     <div className="order-1 col-sm-12 col-md-8 ">
                         <div className="row info-text text-teal">
-                            <div className="col-sm-12 col-md-2">
-                            <a className="text-teal" href={data.demoUrl} target="_blank" role="button">VIEW DEMO</a>
-                            </div>
-                            <div className="col-sm-12 col-md-10">| {data.dates}
+                            <div className="d-flex flex-sm-row flex-column">
+                                <div>
+                                    <a className="text-teal outlineButton" href={data.demoUrl} target="_blank" rel="noreferrer" role="button"><span>VIEW DEMO</span></a>
+                                </div>
+                                <div className="d-none d-md-block">
+                                    &nbsp;|&nbsp;
+                                </div>
+                                <div>
+                                    {data.dates}
+                                </div>
                             </div>
                         </div>
 
@@ -30,8 +36,8 @@ export default function ProjectItem({imageDirection, data}) {
                     </div>
                     <div className={imageClasses}>
                         <div className="red-hr text-center-on-sm">
-                            <h1 className="info-text">{data.name}</h1>
-                            <DisplayIcon iconName={data.icon}  />
+                            <h1 className="info-text text-2-em">{data.name}</h1>
+                            <DisplayIcon iconName={data.icon} />
                         </div>
                     </div>
 
