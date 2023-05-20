@@ -16,7 +16,7 @@ export default function ExperienceItem({imageDirection, data}) {
                 <div className="row">
                     <div className="order-1 col-sm-12 col-md-8 ">
                         <div className="row info-text text-teal">
-                            <div className="d-flex flex-sm-row flex-column">
+                            <div className="d-flex flex-sm-row flex-column text-center-on-sm sm-pb-05em">
                                 <div>{data.jobTitle}&nbsp;</div><div className="d-none d-md-block">&nbsp;|&nbsp;</div><div>{data.dates}</div>
                             </div>
                         </div>

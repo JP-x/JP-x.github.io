@@ -1,18 +1,99 @@
 :root {
-	--accent-gold: #ffcb44;
-	--accent-teal: #51ffae;
-	--accent-purple: #ba7aff;
-}
-
-/*
-body{
-	background-color: rgb(23, 23, 23) !important;
+	--accent-gold:#df5454;
+	--accent-teal:#ffc400;
+	--accent-purp:#df2b2b;
+	--bg-off-black: #0e0e10;
+	--bg-off-black2: #18181b;
 }
 
 .container{
-	background-color: black;
+	background-color: var(--bg-off-black);
 }
-*/
+
+.block-section {
+	min-height: 10vh;
+}
+
+.flipping-text-wrapper{
+	display:inline-block;
+	margin-bottom:4em;
+	overflow-y:hidden;
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (max-width: 767.98px) {
+	.flipping-text-wrapper{
+		display:inline-block;
+		margin-bottom:8em;
+		overflow-y:hidden;
+	}
+}
+
+.flipping-text-content{
+	font-family: 'PT Sans Narrow', sans-serif;
+	font-size: 3em;
+	display: block;
+	margin-bottom:0px;
+	position:absolute;
+	opacity:0; /* needed for animation */
+}
+
+@keyframes flip-text {
+	0% {
+	  opacity: 0;
+	  transform: translate3d(0, 3em, 0);
+	}
+	
+	20%, 80% {
+	  opacity: 1;
+	  transform: translate3d(0, 0, 0);
+	}
+	
+	100% {
+	  opacity: 0;
+	  transform: translate3d(0, -1.5em, 0);
+	}
+  }
+
+  .flipping-text-content:nth-of-type(1) {
+	animation-name: flip-text;
+	animation-duration: 1.5s;
+	animation-delay: .5s;
+  }
+  
+  .flipping-text-content:nth-of-type(2) {
+	animation-name: flip-text;
+	animation-duration: 1.5s;
+	animation-delay: 1.75s;
+  }
+  
+  .flipping-text-content:nth-of-type(3) {
+	animation-name: flip-text;
+	animation-duration: 1.5s;
+	animation-delay: 3s;
+  }
+
+  .flipping-text-content:nth-of-type(4) {
+	animation-name: flip-last;
+	animation-duration: 1.5s;
+	animation-delay: 4.25s;
+	animation-fill-mode:forwards;
+  }
+
+  @keyframes flip-last {
+	0% {
+	  opacity: 0;
+	  transform: translate3d(0, 3em, 0);
+	}
+	
+	100% {
+	  opacity: 1;
+	  transform: translate3d(0, 0, 0);
+	}
+  }
+
+
+
 
 /* outlined buttons with transitions */
 a.outlineButton {
@@ -57,8 +138,6 @@ a.outlineButton {
 	width: 100%;
 	color:white;
   }
-  
-
 
 .stretched-big-text {
 	font-family: 'PT Sans Narrow', sans-serif;
@@ -91,7 +170,7 @@ a.outlineButton {
 
 .gradient-text {
 	background-color: #f3ec78;
-	background-image: radial-gradient(#6adae9, #11e0e4, #8f9be8, #065de0);
+	background-image: radial-gradient(var(--accent-teal),var(--accent-gold), var(--accent-purp));
 	background-size: 100%;
 	-webkit-background-clip: text;
 	-moz-background-clip: text;
@@ -108,9 +187,7 @@ a.outlineButton {
 	overflow-x: hidden;
 }
 
-.block-section {
-	min-height: 30vh;
-}
+
 
 .light-section {
 	background-color: white;
@@ -120,7 +197,7 @@ a.outlineButton {
 .red-hr {
 	min-height: 100%;
 	z-index: 1;
-	border-top: solid hsl(344, 100%, 50%) 0.5em;
+	border-top: solid var(--accent-purp) 0.5em;
 }
 
 
@@ -149,13 +226,9 @@ a.outlineButton {
 }
 
 .bg-wrapper {
-	background-image: url(../img/bluegreen_spiral.svg);
+	background-image: url(../img/redorange_spiral.svg);
 	background-repeat: no-repeat;
 	background-position: right;
-}
-
-.section-min-height {
-	min-height: 0.5vw;
 }
 
 .info-text {
@@ -199,6 +272,10 @@ a.outlineButton {
 @media (max-width: 767.98px) {
 	.text-center-on-sm {
 		text-align: center;
+	}
+
+	.sm-pb-05em{
+		padding-bottom: 0.5em;
 	}
 }
 
@@ -258,7 +335,7 @@ a.outlineButton {
 }
 
 body {
-	background-color: black;
+	background-color: var(--bg-off-black);
 	color: white;
 }
 
@@ -291,7 +368,7 @@ body {
 
 
 .gradient {
-	background: linear-gradient(-45deg, #ffeb3b, #74efff, #9c27b0);
+	background: linear-gradient(-45deg, #ffeb3b, #ef8e20, #9c0000);
 	background-size: 400% 400%;
 	animation: gradient-bg 10s ease infinite;
 }
@@ -364,7 +441,7 @@ body {
 }
 
 .marquee-purple p:nth-child(3n) {
-	color: var(--accent-purple);
+	color: var(--accent-purp);
 }
 
 
@@ -400,7 +477,7 @@ body {
 }
 
 .marquee-purple li:nth-last-of-type(1) {
-	color: var(--accent-purple);
+	color: var(--accent-purp);
 }
 
 

@@ -1,6 +1,6 @@
 import redBlueSVG  from "../img/redblue_spiral.svg"
 import orangeRedSVG  from "../img/redorange_spiral.svg"
-import blueGreenSVG from "../img/bluegreen_spiral.svg"
+import blueGreenSVG from "../img/redblue_spiral.svg"
 import FlippingText from "./flippingtext";
 
 export default function HeaderWithGraphic({ mode, direction, color }) {

@@ -1,4 +1,4 @@
-import blueGreenSVG from "../img/bluegreen_spiral.svg"
+import blueGreenSVG from "../img/redblue_spiral.svg"
 export default function LightSection() {
     return (
         <>
