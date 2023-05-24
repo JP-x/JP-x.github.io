@@ -11,7 +11,7 @@ export default function Navbar(){
                         <img className="d-none d-sm-inline navbar-brand-logo responsive-img gradient" src={logoNum} width="100" height="200" alt="Jonathan Padilla - Software Developer"></img>
                     </picture>
                     <picture>
-                        <img className="navbar-brand-logo responsive-img img-wrapper" src={logoName} width="200" height="100" alt="Jonathan Padilla - Software Developer"></img>
+                        <img className="navbar-brand-text navbar-brand-logo responsive-img img-wrapper" src={logoName} width="200" height="100" alt="Jonathan Padilla - Software Developer"></img>
                     </picture>
                 </a>
 

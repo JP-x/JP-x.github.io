@@ -27,6 +27,12 @@ export default function Marquee({ mode, direction, color }) {
         case "purple":
             marqueeColor = "marquee-purple";
             break;
+        case "blue":
+            marqueeColor="marquee-blue";
+            break;
+        case "blue2":
+            marqueeColor="marquee-blue2";
+            break;
         default:
     }
 

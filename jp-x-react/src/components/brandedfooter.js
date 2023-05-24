@@ -15,7 +15,7 @@ export default function BrandedFooter() {
                                 <img className="navbar-brand-logo responsive-img gradient" src={logoNum} width="100" height="200" alt="Jonathan Padilla - Software Developer"></img>
                             </picture>
                             <picture>
-                                <img className="navbar-brand-logo responsive-img img-wrapper" src={logoName} width="200" height="100" alt="Jonathan Padilla - Software Developer"></img>
+                                <img className="navbar-brand-text navbar-brand-logo responsive-img img-wrapper" src={logoName} width="200" height="100" alt="Jonathan Padilla - Software Developer"></img>
                             </picture>
                         </a>
                     </div>
@@ -29,7 +29,7 @@ export default function BrandedFooter() {
 
                 <div className="row">
                     <div className="col text-center">
-                        <a className="btn btn-lg icon-large white-text" target="_blank" href="https://github.com/JP-x" rel="noreferrer"><GitHubIcon fontSize="inherit"/></a>
+                        <a className="btn btn-lg icon-large" target="_blank" href="https://github.com/JP-x" rel="noreferrer"><GitHubIcon fontSize="inherit"/></a>
                     </div>
                 </div>
 

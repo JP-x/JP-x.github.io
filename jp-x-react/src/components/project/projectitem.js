@@ -22,7 +22,7 @@ export default function ProjectItem({ imageDirection, data }) {
                                 <div className="d-none d-md-block">
                                     &nbsp;|&nbsp;
                                 </div>
-                                <div>
+                                <div className="text-teal-info">
                                     {data.dates}
                                 </div>
                             </div>
@@ -35,7 +35,7 @@ export default function ProjectItem({ imageDirection, data }) {
                         </ul>
                     </div>
                     <div className={imageClasses}>
-                        <div className="red-hr text-center-on-sm">
+                        <div className="blue-hr text-center-on-sm">
                             <h1 className="info-text text-2-em">{data.name}</h1>
                             <DisplayIcon iconName={data.icon} />
                         </div>
