@@ -17,7 +17,7 @@ export default function ProjectItem({ imageDirection, data }) {
                         <div className="row info-text text-teal">
                             <div className="d-flex flex-sm-row flex-column text-center-on-sm sm-pb-05em">
                                 <div>
-                                    <a className="text-teal outlineButton" href={data.demoUrl} target="_blank" rel="noreferrer" role="button"><span>VIEW DEMO</span></a>
+                                    <a className="outlineButton" href={data.demoUrl} target="_blank" rel="noreferrer" role="button"><span>VIEW DEMO</span></a>
                                 </div>
                                 <div className="d-none d-md-block">
                                     &nbsp;|&nbsp;

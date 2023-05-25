@@ -3,7 +3,7 @@
 	--accent-teal:#22fff3;
 	--accent-blue:#33aee7;
 	--accent-blue2:#117aff;
-	--accent-dark-teal:#00cec4eb;
+	--accent-dark-purp:#5600ceeb;
 	--accent-dark-blue:#1993cc;
 	--accent-dark-blue2:#0060dc;
 	--bg-off-black: #0e0e10;
@@ -208,6 +208,13 @@ a.outlineButton {
 	color:white;
   }
 
+.day-mode a.outlineButton{
+	background-color: var(--accent-dark-purp);
+	border: 0.1em solid var(--accent-dark-purp);
+	color:white;
+}
+
+
 .stretched-big-text {
 	font-family: 'PT Sans Narrow', sans-serif;
 	font-size: 3em;
@@ -319,6 +326,9 @@ a.outlineButton {
 	border-top: solid var(--accent-blue2) 0.5em;
 }
 
+.day-mode .blue-hr{
+	border-top: solid var(--accent-blue2) 0.5em;
+}
 
 
 .day-mode .btn-dark {
@@ -370,18 +380,6 @@ a.outlineButton {
 	font-size: 2em;
 }
 
-.demo-btn{
-	text-decoration:none;
-	border: solid 1px;
-	border-radius:5px;
-	padding: 5px;
-}
-
-.demo-btn:hover{
-	color:teal;
-	text-decoration:underline;
-}
-
 .text-teal {
 	color: var(--accent-teal);
 }
@@ -391,7 +389,7 @@ a.outlineButton {
 }
 
 .day-mode .text-teal-info {
-	color: var(--accent-dark-teal) !important;
+	color: var(--accent-dark-purp) !important;
 	font-weight:bolder;
 }
 
@@ -595,7 +593,7 @@ a.outlineButton {
 }
 
 .day-mode .marquee-teal p:nth-child(3n) {
-	color: var(--accent-dark-teal);
+	color: var(--accent-dark-purp);
 }
 
 .day-mode .marquee-blue p:nth-child(3n) {
