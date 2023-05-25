@@ -2,8 +2,8 @@ import blueGreenSVG from "../img/redblue_spiral.svg"
 export default function LightSection() {
     return (
         <>
-            <div className="container mt-3em light-section block-section">
-                <div className="row  m-auto">
+            <div className="light-section block-section g-0">
+                <div className="row m-auto">
                     <div className="col-sm-12 col-md-7 pt-3em">
                         <div className="row info-text-large">
                             <div className="col-md-12">
@@ -37,7 +37,7 @@ export default function LightSection() {
                 </div>
                 </div>
                 <div className="row mt-3em">
-                    <div className="gradient small-height"></div>
+                    <div className="gradient small-height hide-overflow"></div>
                 </div>
             </div>
 

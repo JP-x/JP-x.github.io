@@ -12,7 +12,7 @@ export default function ExperienceItem({imageDirection, data}) {
 
     return (
         <>
-            <div className="container mt-3em block-section">
+            <div className="mt-3em block-section">
                 <div className="row">
                     <div className="order-1 col-sm-12 col-md-8 ">
                         <div className="row info-text text-teal">

@@ -12,7 +12,7 @@ import React from 'react';
 function App() {
   return (
     <>
-      <div className="container">
+      <div className="container-fluid">
         <Navbar></Navbar>
         <HeaderWithGraphic />
         <Marquee mode="Languages" direction="left" color="blue" />
@@ -24,7 +24,7 @@ function App() {
         <ProjectSection/>
         <LightSection />
         <BrandedFooter/>
-      </div>
+        </div>
     </>
   );
 }

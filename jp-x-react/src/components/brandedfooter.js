@@ -7,7 +7,7 @@ export default function BrandedFooter() {
    var currentYear = new Date().getFullYear();
     return (
         <>
-            <div className="container mt-3em block-section">
+            <div className="mt-3em block-section">
                 <div className="row">
                     <div className="col-sm-12 col-md-4 text-center pb-3em m-auto">
                         <a className="navbar-brand" href="#" role="navigation">
@@ -20,10 +20,10 @@ export default function BrandedFooter() {
                         </a>
                     </div>
                     <div className="col-sm-6 col-md-4 text-center pb-3em m-auto">
-                        <a className="btn btn-lg btn-light p-1em" href="https://drive.google.com/file/d/1CWmATumttVbf8igeDcA14eGB75tBc9wN/view?usp=share_link" rel="noreferrer" role="button">&#62; RESUME</a>
+                        <a className="btn  p-1em btn-lg  btn-light" href="https://drive.google.com/file/d/1CWmATumttVbf8igeDcA14eGB75tBc9wN/view?usp=share_link" rel="noreferrer" role="button">&#62; RESUME</a>
                     </div>
                     <div className="col-sm-6 col-md-4 text-center pb-3em m-auto">
-                        <a className="btn btn-lg btn-light p-1em" target="_blank" href="https://www.linkedin.com/in/jonathanpadilla4" rel="noreferrer" role="button"><LinkedInIcon /> CONNECT</a>
+                        <a className="btn p-1em btn-lg btn-light " target="_blank" href="https://www.linkedin.com/in/jonathanpadilla4" rel="noreferrer" role="button"><LinkedInIcon /> CONNECT</a>
                     </div>
                 </div>
 
