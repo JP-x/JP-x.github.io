@@ -8,7 +8,7 @@ export default function ExperienceSection() {
     return (
         <div>
             {Experience.experience.map((item, index) => (
-                <ExperienceItem key={item.name + index.toString()} imageDirection={index % 2 === 0 ? "left" : "right"} data={item} />
+                <ExperienceItem key={item.name + index.toString()} imageDirection="left" data={item} />
             ))}
         </div>
     );

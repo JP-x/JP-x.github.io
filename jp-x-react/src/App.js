@@ -12,19 +12,28 @@ import React from 'react';
 function App() {
   return (
     <>
-      <div className="container-fluid">
+      <div className="container">
         <Navbar></Navbar>
         <HeaderWithGraphic />
-        <Marquee mode="Languages" direction="left" color="blue" />
+      </div>
+      <div className="container">
+      <Marquee mode="Languages" direction="left" color="blue" />
         <Marquee mode="Technologies" direction="right" color="teal" />
         <Marquee mode="Tools" direction="left" color="blue2" />
+      </div>
+      <div className="container">
         <SectionDivider title="Experience" />
+      
         <ExperienceSection/>
         <SectionDivider title="Projects" />
         <ProjectSection/>
+        </div>
         <LightSection />
+        <div className="container">
         <BrandedFooter/>
         </div>
+    
+        
     </>
   );
 }

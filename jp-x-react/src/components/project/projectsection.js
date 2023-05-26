@@ -8,7 +8,7 @@ export default function ProjectSection() {
     return (
         <div>
             {Project.projects.map((item, index) => (
-                <ProjectItem key={item.name} imageDirection={index % 2 === 0 ? "left" : "right"} data={item} />
+                <ProjectItem key={item.name} imageDirection="left" data={item} />
             ))}
         </div>
     );
