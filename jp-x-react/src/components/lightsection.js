@@ -35,7 +35,7 @@ export default function LightSection() {
                         </div>
                     </div>
                     <div className="row">
-                        <div className="col text-center">
+                        <div className="col-sm-6 col-md-4 text-center m-auto">
                             <a className="btn btn-lg btn-dark p-1em" rel="noreferrer" href="https://www.linkedin.com/in/jonathanpadilla4" target="_blank" role="button">&#62; CONTACT ME</a>
                         </div>
                     </div>
