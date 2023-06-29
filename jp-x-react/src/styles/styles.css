@@ -435,17 +435,27 @@ a.outlineButton {
 	font-weight:bolder;
 }
 
+.day-mode .icon-wrapper {
+	max-width: 100%;
+	max-height: 25%;
+	margin: auto;
+	stroke: var(--bg-off-white);
+	stroke-width: 1;
+}
+
 
 .icon-wrapper {
 	max-width: 100%;
-	max-height: 33%;
+	max-height: 25%;
 	margin: auto;
+	stroke: var(--bg-off-black);
+	stroke-width: 1.1;
 }
 
 .giant-icon {
 	max-width: 100%;
-	max-height: 33%;
-	font-size: 30vw !important;
+	max-height: 25%;
+	font-size: 20vw !important;
 	margin: auto;
 }
 
