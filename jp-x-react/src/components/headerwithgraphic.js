@@ -1,6 +1,3 @@
-import redBlueSVG  from "../img/redblue_spiral.svg"
-import orangeRedSVG  from "../img/redorange_spiral.svg"
-import blueGreenSVG from "../img/redblue_spiral.svg"
 import FlippingText from "./flippingtext";
 import Svganimator from "./svganimator";
 
@@ -14,7 +11,9 @@ export default function HeaderWithGraphic({ mode, direction, color }) {
             <h2><strong>4.5 Years</strong> of <strong>Professional Software Development</strong>  Experience.</h2>
           </div>
           <div className="col-5">
-           <Svganimator/>
+            <div className="d-none d-sm-inline">
+            <Svganimator/>
+            </div>
           </div>
         </div>
       </div>
