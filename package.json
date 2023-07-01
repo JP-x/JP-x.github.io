@@ -1,7 +1,7 @@
 {
   "name": "jp-x-react",
   "version": "0.1.0",
-  "homepage": "https://jp-x.github.io/JP-x.github.io/jp-x-react/build",
+  "homepage": "https://jp-x.github.io/JP-x.github.io/",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.10.8",
