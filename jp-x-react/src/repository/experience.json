@@ -1,0 +1,26 @@
+{
+    "experience": [
+        {
+            "company": "San Manuel Casino",
+            "icon": "CasinoIcon",
+            "jobTitle": "Software Engineer",
+            "dates": "Jun. 2018 - Feb. 2022",
+            "description": [
+                "Coordinated and collaborated with other engineers on various projects including APIs, Cloud Development, Mobile Applications, and Web Applications.",
+                "Developed, tested, debugged and documented programs and applications using primarily C#.",
+                "Primary developer on a series of projects including improvements to onboarding processes, as well as working with vendors to complete deliverables."
+            ]
+        },
+        {
+            "company": "Megasys Inc.",
+            "icon": "RequestQuoteIcon",
+            "jobTitle": "Software Developer",
+            "dates": "Jul. 2017 ‑ Jun. 2018",
+            "description": [
+                "Developed, tested and debugged various features for Megasys' flagship car financing web application.",
+                "Utilized the Microsoft Technology Stack including C#, Microsoft SQL Server, and various web frameworks to deliver features.",
+                "Integrated various services within the web application using RESTful API."
+            ]
+        }
+    ]
+}

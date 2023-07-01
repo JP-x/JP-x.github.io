@@ -1,0 +1,38 @@
+{
+    "projects":[
+        {
+            "name": "Professional Portfolio",
+            "icon": "AccountBoxIcon",
+            "demoUrl" : "https://jonpadilla.com",
+            "dates": "May. 2023 - Present",
+            "description": [
+               "Professional portfolio developed using React js and deployed via Github pages.",
+               "Utilized React-Spring library for handling SVG animations.",
+               "CI/CD via Github pipelines."
+            ]
+        },
+        {
+            "name": "Art Portfolio",
+            "icon": "BrushIcon",
+            "demoUrl" : "https://artistportfolio.azurewebsites.net/",
+            "dates": "Sept. 2021 - Present",
+            "description": [
+                "Artist portfolio website utilizing Angular js and a Microsoft Azure function backend.",
+                "Deployed and configured project via the Microsoft Azure portal.",
+                "CI/CD via Github pipelines to Azure instance.",
+                "Utilized the Azure CDN to reduce load times for images."
+            ]
+        },
+        {
+            "name": "Asp.Net MVC Web Application",
+            "icon": "WebIcon",
+            "demoUrl" : "https://overwatchheroes.azurewebsites.net/",
+            "dates": "Jun. 2017",
+            "description": [
+                "Informational website inspired by a video game utilizing ASP.NET MVC",
+                "Deployed and published website through Microsoft Azure using Visual Studio.",
+                "Dynamically built detail pages dependent on character selection on index page."
+            ]
+        }
+    ]
+}
