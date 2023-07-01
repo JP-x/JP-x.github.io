@@ -7,7 +7,7 @@ export default function Navbar() {
         <>
             <nav className="navbar navbar-expand-lg">
                 <div className="container-fluid">
-                    <a className="navbar-brand" href="#">
+                    <a className="navbar-brand" rel="noreferrer" href="https://jonpadilla.com">
                         <picture>
                             <img className="d-none d-sm-inline navbar-brand-logo responsive-img gradient" src={logoNum} width="100" height="200" alt="Jonathan Padilla - Software Developer"></img>
                         </picture>
@@ -21,10 +21,10 @@ export default function Navbar() {
                     <div className="collapse navbar-collapse box-shadow-on-sm" id="navbarNav">
                         <ul className="navbar-nav nav-fill w-100 me-auto mb-2 mb-lg-0">
                             <li className="nav-item text-right-on-sm">
-                                <a className="nav-link white-hover-glow" href="#">CONTACT</a>
+                                <a className="nav-link white-hover-glow" rel="noreferrer" target="_blank" href="https://www.linkedin.com/in/jonathanpadilla4">CONTACT</a>
                             </li>
                             <li className="nav-item text-right-on-sm">
-                                <a className="nav-link white-hover-glow" href="#">RESUME</a>
+                                <a className="nav-link white-hover-glow" rel="noreferrer" target="_blank" href="https://drive.google.com/file/d/1QTT1-DMxGmA8tuauiXIOgjop4g6Ra0EB/view?usp=sharing">RESUME</a>
                             </li>
                             <li className="nav-item text-right-on-sm">
                                 <div className="nav-link white-hover-glow">

@@ -669,6 +669,12 @@ h2{
 	-webkit-filter: invert();
 }
 
+.day-mode .navbar-brand-text:hover{
+	-webkit-filter: drop-shadow(0px 0px 3px   rgb(0, 0, 0));
+	filter: drop-shadow(0px 0px 3px   rgb(0, 0, 0));
+}
+
+
 .day-mode .nav-link{
 	color: var(--bg-off-black);
 	font-weight:600;

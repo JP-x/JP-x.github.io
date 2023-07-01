@@ -10,7 +10,7 @@ export default function BrandedFooter() {
             <div className="mt-3em block-section">
                 <div className="row">
                     <div className="col-sm-12 col-md-4 text-center pb-3em m-auto">
-                        <a className="navbar-brand" href="#" role="navigation">
+                        <a className="navbar-brand"  rel="noreferrer" href="https://jonpadilla.com" role="navigation">
                             <picture>
                                 <img className="navbar-brand-logo responsive-img gradient" src={logoNum} width="100" height="200" alt="Jonathan Padilla - Software Developer"></img>
                             </picture>
@@ -20,7 +20,7 @@ export default function BrandedFooter() {
                         </a>
                     </div>
                     <div className="col-sm-6 col-md-4 text-center pb-3em m-auto">
-                        <a className="btn  p-1em btn-lg  btn-light" href="https://drive.google.com/file/d/1CWmATumttVbf8igeDcA14eGB75tBc9wN/view?usp=share_link" rel="noreferrer" role="button">&#62; RESUME</a>
+                        <a className="btn  p-1em btn-lg  btn-light" rel="noreferrer" target="_blank" href="https://drive.google.com/file/d/1QTT1-DMxGmA8tuauiXIOgjop4g6Ra0EB/view?usp=sharing" role="button">&#62; RESUME</a>
                     </div>
                     <div className="col-sm-6 col-md-4 text-center pb-3em m-auto">
                         <a className="btn p-1em btn-lg btn-light " target="_blank" href="https://www.linkedin.com/in/jonathanpadilla4" rel="noreferrer" role="button"><LinkedInIcon /> CONNECT</a>

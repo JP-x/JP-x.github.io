@@ -7,6 +7,7 @@
             "dates": "May. 2023 - Present",
             "description": [
                "Professional portfolio developed using React js and deployed via Github pages.",
+               "Utilized React-Spring library for handling SVG animations.",
                "CI/CD via Github pipelines."
             ]
         },

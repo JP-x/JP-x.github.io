@@ -18,7 +18,8 @@
             "dates": "Jul. 2017 ‑ Jun. 2018",
             "description": [
                 "Developed, tested and debugged various features for Megasys' flagship car financing web application.",
-                "Utilized the Microsoft Technology Stack including C#, Microsoft SQL Server, and various web frameworks to deliver features."
+                "Utilized the Microsoft Technology Stack including C#, Microsoft SQL Server, and various web frameworks to deliver features.",
+                "Integrated various services within the web application using RESTful API."
             ]
         }
     ]
