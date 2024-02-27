@@ -8,7 +8,7 @@ export default function HeaderWithGraphic({ mode, direction, color }) {
           <div className="col-md-7 col-sm-12">
             <h1 className="stretched-big-text2">EXPERIENCED IN</h1>
             <FlippingText/>
-            <h2><strong>4.5 Years</strong> of <strong>Professional Software Development</strong>  Experience.</h2>
+            <h2><strong>5 Years</strong> of <strong>Professional Software Development</strong>  Experience.</h2>
           </div>
           <div className="col-5">
             <div className="d-none d-sm-inline">

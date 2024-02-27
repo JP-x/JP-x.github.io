@@ -3,6 +3,7 @@ import RequestQuoteIcon from '@mui/icons-material/RequestQuoteOutlined';
 import BrushIcon from '@mui/icons-material/BrushOutlined';
 import WebIcon from '@mui/icons-material/WebOutlined';
 import AccountBoxIcon from '@mui/icons-material/AccountBoxOutlined';
+import ConstructionOutlinedIcon from '@mui/icons-material/ConstructionOutlined';
 
 export default function DisplayIcon({iconName})
 {
@@ -25,6 +26,9 @@ export default function DisplayIcon({iconName})
             break;
         case "CasinoIcon":
             iconComponent = <CasinoIcon sx={{fontSize: size}} className="icon-wrapper"/>
+            break;
+        case "ConstructionOutlinedIcon":
+            iconComponent = <ConstructionOutlinedIcon sx={{fontSize: size}} className="icon-wrapper"/>
             break;
         default:
     }

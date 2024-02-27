@@ -1,6 +1,17 @@
 {
     "experience": [
         {
+            "company": "All American Asphalt ",
+            "icon": "ConstructionOutlinedIcon",
+            "jobTitle": "Programmer",
+            "dates": "Sept. 2023 - Present",
+            "description": [
+                "Utilized Microsoft Technology Stack to maintain an enterprise class software application which handles major business processes.",
+                "Developed new functionality within the enterprise Windows Forms application using C#. The application interfaces with an Informix database.",
+                "Utilized AWS to integrate login features within an internal web application. Leveraged Amazon Cognito to handle identity services such as OAuth 2.0"
+            ]
+        },
+        {
             "company": "San Manuel Casino",
             "icon": "CasinoIcon",
             "jobTitle": "Software Engineer",
