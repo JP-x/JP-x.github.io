@@ -1,18 +1,18 @@
 {
   "files": {
     "main.css": "/JP-x.github.io/static/css/main.f15ed035.css",
-    "main.js": "/JP-x.github.io/static/js/main.4072e235.js",
+    "main.js": "/JP-x.github.io/static/js/main.7945362a.js",
     "static/js/787.c50ccf28.chunk.js": "/JP-x.github.io/static/js/787.c50ccf28.chunk.js",
     "static/media/Logo_Name.png": "/JP-x.github.io/static/media/Logo_Name.81b343d307e473b92f16.png",
     "static/media/redblue_spiral.svg": "/JP-x.github.io/static/media/redblue_spiral.45cd128152ae8380fed8736f477ba2df.svg",
     "static/media/redorange_spiral.svg": "/JP-x.github.io/static/media/redorange_spiral.c35c7ddff97eb1a1be10.svg",
     "index.html": "/JP-x.github.io/index.html",
     "main.f15ed035.css.map": "/JP-x.github.io/static/css/main.f15ed035.css.map",
-    "main.4072e235.js.map": "/JP-x.github.io/static/js/main.4072e235.js.map",
+    "main.7945362a.js.map": "/JP-x.github.io/static/js/main.7945362a.js.map",
     "787.c50ccf28.chunk.js.map": "/JP-x.github.io/static/js/787.c50ccf28.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f15ed035.css",
-    "static/js/main.4072e235.js"
+    "static/js/main.7945362a.js"
   ]
 }
