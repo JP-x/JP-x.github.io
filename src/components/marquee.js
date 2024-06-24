@@ -1,6 +1,6 @@
 const languages = ["C#", "HTML", "CSS", "Javascript", "TSQL", "Python", "XAML", "C++", "C"];
 const technologies = [".Net", "Asp.Net MVC", "Asp.Net Razor", "Asp.Net AJAX", "Angular", "React", "Telerik UI", "Bootstrap"];
-const tools = ["Visual Studio", "Azure DevOps", "Workday", "SQL Management Studio", "Active Directory", "Microsoft Azure", "Git", "IIS"];
+const tools = ["Visual Studio", "Azure DevOps", "Workday", "SQL Management Studio", "Active Directory","Peoplesoft", "Microsoft Azure", "Git", "IIS"];
 export default function Marquee({ mode, direction, color }) {
     var marqueeData = languages;
     switch (mode) {
