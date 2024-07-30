@@ -6,7 +6,7 @@
             "jobTitle": "Programmer",
             "dates": "Sept. 2023 - Present",
             "description": [
-                "Utilized Microsoft Technology Stack to maintain an enterprise class software application which handles major business processes.",
+                "Developed website for tracking info related to construction jobs using C#, with AJAX requests handled via javascript. Developed an API backend that is deployed via a Kestrel web server.",
                 "Developed new functionality within the enterprise Windows Forms application using C#. The application interfaces with an Informix database.",
                 "Utilized AWS to integrate login features within an internal web application. Leveraged Amazon Cognito to handle identity services such as OAuth 2.0",
                 "Performed needed server maintenance via command line within Linux, executed needed database imports and generated backups as needed."
