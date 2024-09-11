@@ -20,7 +20,7 @@ export default function BrandedFooter() {
                         </a>
                     </div>
                     <div className="col-sm-6 col-md-4 text-center pb-3em m-auto">
-                        <a className="btn  p-1em btn-lg  btn-light" rel="noreferrer" target="_blank" href="https://drive.google.com/file/d/1ZLyNUtM1EDzrS49M9lRraMGsQZ5IOBNS/view?usp=sharing" role="button">&#62; RESUME</a>
+                        <a className="btn  p-1em btn-lg  btn-light" rel="noreferrer" target="_blank" href="https://drive.google.com/file/d/13gt_UvdSo_3Em42jYeZeGreuWAUcTGHH/view?usp=sharing" role="button">&#62; RESUME</a>
                     </div>
                     <div className="col-sm-6 col-md-4 text-center pb-3em m-auto">
                         <a className="btn p-1em btn-lg btn-light " target="_blank" href="https://www.linkedin.com/in/jonathanpadilla4" rel="noreferrer" role="button"><LinkedInIcon /> CONNECT</a>
