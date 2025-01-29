@@ -24,7 +24,7 @@ export default function Navbar() {
                                 <a className="nav-link white-hover-glow" rel="noreferrer" target="_blank" href="https://www.linkedin.com/in/jonathanpadilla4">CONTACT</a>
                             </li>
                             <li className="nav-item text-right-on-sm">
-                                <a className="nav-link white-hover-glow" rel="noreferrer" target="_blank" href="https://drive.google.com/file/d/13gt_UvdSo_3Em42jYeZeGreuWAUcTGHH/view?usp=sharing">RESUME</a>
+                                <a className="nav-link white-hover-glow" rel="noreferrer" target="_blank" href="https://drive.google.com/file/d/1lrMndVkt5TuOkRkb_GDUnQ5bDsi8mCgR/view?usp=sharing">RESUME</a>
                             </li>
                             <li className="nav-item text-right-on-sm">
                                 <div className="nav-link white-hover-glow">
