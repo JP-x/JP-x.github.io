@@ -14,8 +14,8 @@
         {
             "name": "Art Portfolio",
             "icon": "BrushIcon",
-            "demoUrl" : "https://artistportfolio.azurewebsites.net/",
-            "dates": "Sept. 2021 - Present",
+            "demoUrl" : "https://youtube.com/shorts/vw0PUzwQhGY",
+            "dates": "Sept. 2021 - May 2025",
             "description": [
                 "Artist portfolio website utilizing Angular js and a Microsoft Azure function backend.",
                 "Deployed and configured project via the Microsoft Azure portal.",
